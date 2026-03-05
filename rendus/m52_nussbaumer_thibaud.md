@@ -76,7 +76,7 @@ Afin d'organiser mon planning autour de ce projet, ainsi que des deadlines impos
 
 ## Expérimentation
 
-En suivant ce cours d'Openclassroom, je serai en quelques sortes accompagné, et les Quizz sont en général assez simple et n'évaluent pas pleinement mes connaissances. Afin de palier à ces problèmes, il me sera nécessaire de créer un petit projet en me basant sur mes notes, ainsi que la [documentation de Docker](https://docs.docker.com/).
+En suivant ce cours d'Openclassroom, je serai en quelques sortes accompagné, et les Quizz sont en général assez simples et n'évaluent pas pleinement mes connaissances. Afin de palier à ces problèmes, il me sera nécessaire de créer un petit projet en me basant sur mes notes, ainsi que la [documentation de Docker](https://docs.docker.com/).
 
 En guise de projet, j'imagine par exemple encapsuler une simple "Todolist" (HTML,CSS,JS) nécessitant une base de donnée (PostgreSQL) dans leurs conteneurs respectifs avec Docker Compose. 
 
@@ -90,20 +90,39 @@ Je serai en mesure d'évaluer mes compétences, ma compréhension de la platefor
 
 _Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
 
+Le résultat est que les attentes et objectifs étaient réaliste, mais la manière d'y parvenir m'a compliqué la tâche [Voir Résultat de l'expérimentation](#résultat de l'expérimentation). Peut-être qu'en ayant suivi un autre cours, je n'aurai pas eu de déception vis à vis des exercices.
+
 ## Réponses aux 5 questions
 
 _Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
 
+1. Suis-je capable d'écrire un Dockerfile en me basant sur la documentation de Docker ainsi que mes propres notes ?  
+  i. Oui, mais pour créer une image simple.
+3. Suis-je capable d'écrire un Docker Compose en me basant sur la documentation de Docker ainsi que mes propres notes ?
+  i. Oui, mais pour créer des contenerus simples.
+5. Est-ce que mon application persiste dans le temps ?
+  i. Pas encore, je connais le principe des volumes, mais je ne l'ai pas encore implémenté.
+7. Est-ce que ma prise de note, avec Obsidian, est efficace et facilement utilisable ?
+  i. Elle suffit pour m'y retrouver vite dans des commandes et des paramètres. Parfois je dois regarder la documentation officielle de Docker
+
 ## Résultat de l'expérimentation
 _Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+La réalité est que le cours d'Openclassroom n'est pas pleinement adapté aux débutants. Les concepts et la vulgarisation amenées sont bien expliquées, mais dès qu'on s'attaque à certains de leurs exercices, les choses se compliquent. C'était le cas pour l'écriture d'un Dockerfile, j'ai réalisé l'exercice comme demandé avec les consignes, en me basant sur mes notes et la documentation de Docker, mais dès que j'ai comparé mon fichier à la solution d'Openclassroom, j'ai déchanté. 
+
+Ils ont des commandes qui n'ont pas été abordées dans leur partie théorique, donc on ne peut que faire faux et ça en devient un peu décourageant.
 
 ## Investissement
 
 _Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
 
+Je n'avais pas prévu un planning à suivre. Néanmoins j'ai joué le jeu en faisant un peu de Docker chaque jours afin d'atteindre les objectifs.
+
 ## Réflexion sur la méthode d'auto-formation
 
 _En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+
+
 
 ## Conclusion
 
