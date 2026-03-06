@@ -88,9 +88,9 @@ Je serai en mesure d'évaluer mes compétences, ma compréhension de la platefor
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Le résultat est que les attentes et objectifs étaient réalistes, mais la manière d'y parvenir m'a compliqué la tâche [Voir Résultat de l'expérimentation](#résultat de l'expérimentation). Peut-être qu'en ayant suivi un autre cours, je n'aurai pas eu de déception vis à vis des exercices.
 
-Le résultat est que les attentes et objectifs étaient réaliste, mais la manière d'y parvenir m'a compliqué la tâche [Voir Résultat de l'expérimentation](#résultat de l'expérimentation). Peut-être qu'en ayant suivi un autre cours, je n'aurai pas eu de déception vis à vis des exercices.
+De plus, j'ai pensé que l'apprentissage allait se faire aisément, mais c'était sans compter qu'il fallait que je revoie certaines de mes bases concernant Linux.
 
 ## Réponses aux 5 questions
 
@@ -99,32 +99,40 @@ _Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessai
 1. Suis-je capable d'écrire un Dockerfile en me basant sur la documentation de Docker ainsi que mes propres notes ?  
   i. Oui, mais pour créer une image simple.
 3. Suis-je capable d'écrire un Docker Compose en me basant sur la documentation de Docker ainsi que mes propres notes ?
-  i. Oui, mais pour créer des contenerus simples.
+  i. Oui, mais pour créer des conteneurs simples.
 5. Est-ce que mon application persiste dans le temps ?
-  i. Pas encore, je connais le principe des volumes, mais je ne l'ai pas encore implémenté.
+  i. Plus ou moins, j'ai juste un problème avec le script SQL pour créer la BDD et sa table.
 7. Est-ce que ma prise de note, avec Obsidian, est efficace et facilement utilisable ?
-  i. Elle suffit pour m'y retrouver vite dans des commandes et des paramètres. Parfois je dois regarder la documentation officielle de Docker
+  i. Elle suffit pour m'y retrouver vite dans des commandes et des paramètres. Parfois je dois regarder la documentation officielle de Docker ou bien le manuel dans le terminal de commande.
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
 
 La réalité est que le cours d'Openclassroom n'est pas pleinement adapté aux débutants. Les concepts et la vulgarisation amenées sont bien expliquées, mais dès qu'on s'attaque à certains de leurs exercices, les choses se compliquent. C'était le cas pour l'écriture d'un Dockerfile, j'ai réalisé l'exercice comme demandé avec les consignes, en me basant sur mes notes et la documentation de Docker, mais dès que j'ai comparé mon fichier à la solution d'Openclassroom, j'ai déchanté. 
 
 Ils ont des commandes qui n'ont pas été abordées dans leur partie théorique, donc on ne peut que faire faux et ça en devient un peu décourageant.
 
+Cependant, en ayant éprouvé ces difficultés, ça m'a poussée à me pencher sur la documentation officielle, mes notes ainsi que les guides de Docker (e.g Postgres). J'ai donc une meilleure compréhension de ce qui fonctionne et ne fonctionne pas ainsi que le fonctionnement de la plateforme. De plus, pour m'aiguiller un peu, sans me donner trop de réponses, j'ai utilisé l'IA Gemini en mode apprentissage. L'utilisation de cette dernière à permi de me rendre compte des lacunes que j'avais sur certains concept (e.g le principe du cache chez Docker) et ainsi renforcer mes connaissances.
+
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
-
 Je n'avais pas prévu un planning à suivre. Néanmoins j'ai joué le jeu en faisant un peu de Docker chaque jours afin d'atteindre les objectifs.
+Si je devais estimer le nombre d'heures passées, une quinzaine semble bien refléter la réalité.
+
+À ce jour, le vendredi 06 mars 2026, j'ai presque un app Todolist qui fonctionne, je dois encore établir la communication entre mon frontend et la DB.
+Mais je ne suis pas loin d'avoir une application fonctionnelle pour ma machine.
+
+Le repo est disponible à [cette adresse](https://github.com/funky-shrimp/Appromedia-Todolist/tree/main).
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Il est agréable de pouvoir avancer à son rythme, connaître ses limites et aussi découvrir comment créer une certaine discipline afin d'atteindre ses objectifs.
+Se retrouver seul, m'a obligé à me *casser les dents* sur certains concepts, c'était désagréable, mais les leçons que j'en tire sont mieux ancrées.
 
-
+Je suis peut-être allé trop vite dans mon autoformation au début, ce qui m'a fait perdre du temps plus tard.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Un peu de modestie, j'ai pensé que Docker allait être simple à apprendre, ce n'était pas le cas.
+
+L'avantage d'avoir menée cette autoformation maintenant, est que je ne *perdrai* pas énormément de temps à implémenter Docker lors de mon TB, et pourrai me concentrer sur le coeur même du projet.
+
