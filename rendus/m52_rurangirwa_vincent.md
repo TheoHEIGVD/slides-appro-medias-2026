@@ -44,24 +44,63 @@ Pour la phase d'expérimentation, j'aimerais mettre en place un framework de sé
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+On trouve beaucoup de ressources sur le sujet, souvent produites par des entreprises qui vendent des solutions LMS ou en lien avec le e-learning, et il a fallu faire un tri pour éviter les articles "trop marketing" qui promeuvent leurs outils. Mes recherches m'ont permis de remplir mes objectifs et j'ai l'impression de mieux cerner le domaine ainsi que son fonctionnement et ses enjeux.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+1\.  **Quels sont les avantages des LMS auto-hébergé ?**
+
+Les 2 avantages majeurs sont :
+
+La souveraineté et la sécurité des données. Pour des environnements contenant des informations confidentielles et sensibles ou nécessitant un contrôle très strict, les données ne quittent pas les serveurs de l'organisation.
+
+Cela permet également une personnalisation technique du code source et des intégrations sur mesure avec des systèmes informatiques internes du type ERP. Utile pour avoir une gestion poussée des processus business et pour des entreprises qui forment sur des expertises métiers.
+
+Cela nécessite cependant une infrastructure adaptée et une équipe qui est capable de développer et de maintenir la solution contrairement à une infrastructure SaaS hébergée sur un Cloud.
+
+2\.  **Pourquoi le reporting et l'analytique sont-ils considérés comme la fonction centrale d'un LMS en entreprise ?**
+
+Les LMS sont utilisés dans d'autres contextes que l'éducation, cela peut être un outil de gestion des risques et des ressources humaines. Pour des business, le reporting permet par exemple de prouver la conformité légale (compliance) de leur entreprise face aux régulateurs. Pour les formations, les données analytiques permettent d'identifier les déficits de compétences, adapter les contenus ainsi que de suivre et justifier le retour sur investissement de la plateforme.
+
+3\.  **Comment l'évolution des standards (de SCORM vers xAPI/cmi5) modifie-t-elle le fonctionnement des cours sur un LMS ?**
+
+Le standard historique SCORM permettait l'interopérabilité grâce à un fichier ZIP et une API JavaScript, mais cloisonnait l'expérience d'apprentissage en ligne sur un navigateur web. Les standards plus récents, xAPI et cmi5 changent cela en permettant de tracer des expériences d'apprentissage partout (hors-ligne, sur mobile, via des simulateurs externes) et d'envoyer ces données sous forme de déclarations (Acteur/Verbe/Objet -> ~ Vincent a complété simulation d'opération en VR) vers un LRS (Learning Record Store) qui stocke et envoie vers les plateformes d'analytics de l'organisation.
+
+xAPI permet de ne plus dépendre de l'organisation pour la création de ressource et permet de plus courtes sessions d'apprentissage de type "On the go".
+
+cmi5 est le standard le plus récent basé sur xAPI et permet de traquer encore plus de types d'apprentissage, mais le taux d'adoption est plus faible que SCORM et xAPI
+
+4\.  **Quels sont les coûts pour implémenter un LMS ?**
+
+Les coûts sont variés et ne concernent pas uniquement la licence. La phase la plus critique et coûteuse est la migration des données (données des apprenants, métadonnées, anciens paquets SCORM) vers le nouveau système. Des coûts peuvent s'ajouter tels que la personnalisation, l'intégration (API), et la formation des administrateurs. Sans compter la préparation des contenus prêts pour l'intégration au LMS.
+
+5\.  **Quels sont les différents types d'utilisateurs au sein d'un LMS ?**
+
+*   Les apprenants qui consomment et génèrent de la donnée
+
+*   Les formateurs et/ou concepteurs pédagogiques qui créent le contenu sur la plateforme, animent les cours et évaluent 
+
+*   Les administrateurs qui gèrent l'infrastructure et l'assignation des règles
+
+*   Le personnel IT indispensable pour les systèmes open-source ou auto-hébergés qui nécessitent de la maintenance continue
+
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+L'expérimentation que j'avais imaginée initialement n'était pas idéale pour une approche neutre au sujet et demanderait d'étudier une quantité de LMS, LCMS (Learning content management system), LXP (Learning experience platform) différent ainsi que leur spécificités. J'ai donc analysé les critères importants qui peuvent influencer le choix. Cela m'a permis de comprendre comment approcher un choix en termes de budget, d'infrastructure et de philosophie d'apprentissage. Les fonctionnalités voulues sur le programme choisi vont découler de la vision stratégique liée à l'implémentation d'un tel outil.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+Au départ, j'ai partagé les 36 heures fixés en 4 avec 9 heures par objectif ainsi que la rédaction des rapports. Cela ne me paraissait pas réaliste avec le temps que j'allais passer au final. J'en ai passé entre 16 et 20 avec la rédaction. Je trouve cependant que le temps mis était suffisant pour créer une bonne fondation de connaissance sur le sujet.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+J'ai principalement effectué des recherches documentaires ce qui m'a permis d'assimiler dans les grandes lignes, le contexte et la théorie entourant les LMS, mais sans tester une solution, il est difficile pour moi de me visualiser comment les différentes parties s'articulent notamment dans l'interface ou pour les standards utilisés pour créer et consommer du contenu de formation.
+
+J'ai également constaté que d'avoir mis des objectifs avant de débuter l'apprentissage était difficile surtout pour se lancer dans un sujet que l'on ne connaît pas. Cependant, cela m'a beaucoup aidé à me restreindre à un cadre et à ne pas me perdre dans des sujets annexes, bien qu'intéressant, auraient pu ralentir l'apprentissage et brouiller les informations importantes.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Durant cet auto-apprentissage, j'ai découvert que le sujet est beaucoup plus vaste que ce que je pensais au départ qu'il se partage en un certain nombre de sous-domaines d'expertise très différents entre l'implémentation technique et le design de ressources pédagogiques. Contrairement à l'image que j'avais avant de me pencher sur le sujet, le domaine est très vivant et loin du vieux logiciel pour rendre ses devoirs. Les LMS ne touchent pas uniquement les institutions scolaires, mais sont en réalité encore plus répandues dans les entreprises. La leçon principale est qu'il faudra faire très attention à la stratégie derrière l'implémentation d'un outil pour qu'il soit aligné avec les contraintes budgétaires et matérielles et la philosophie d'apprentissage que l'institution veut apporter à leurs apprenants ou employés. Le rôle de toutes les parties prenantes est impacté par cette stratégie.
+
+Durant mon TB, il faudra qu'elle soit bien définie pour éviter des difficultés techniques ou des manques de ressources.
