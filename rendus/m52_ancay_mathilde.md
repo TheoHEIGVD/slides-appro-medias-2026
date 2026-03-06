@@ -93,7 +93,7 @@ La plupart des objectifs ont été atteints. Cependant, je ne pense pas avoir to
 
 ## Réflexion sur la méthode d'auto-formation
 
-J'ai constaté que mes premiers objectifs, purement théoriques, étaient intéressants. Mais j'ai ressenti une frustration : j'aurais du prévoir de passer plus rapidement à la pratique. Même si la théorie est indispensable, j'avais envie de tester, configurer, etc. Je saurai, à l'avenir, que lorsque je veux apprendre un nouveau framework, je dois commencer par la documentation, mais ne pas trop m'y attarder dans des points trop complexes dès le départ. Il est important de connaître ce que permet de faire une technologie, mais de s'y plonger uniquement lorsque j'en ai besoin concrètement. 
+J'ai constaté que mes premiers objectifs, purement théoriques, étaient intéressants. Mais j'ai ressenti une frustration : j'aurais dû prévoir de passer plus rapidement à la pratique. Même si la théorie est indispensable, j'avais envie de tester, configurer, etc. Je saurai, à l'avenir, que lorsque je veux apprendre un nouveau framework, je dois commencer par la documentation, mais ne pas trop m'y attarder dans des points trop complexes dès le départ. Il est important de connaître ce que permet de faire une technologie, mais de s'y plonger uniquement lorsque j'en ai besoin concrètement. 
 Malgré la contrainte de la documentation en Python, je trouve que j'ai bien réussi à transposer mes acquis dans la version Typescript. 
 ## Conclusion
 
