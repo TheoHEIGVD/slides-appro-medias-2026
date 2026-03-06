@@ -144,13 +144,13 @@ Enfin, elle a également été utile pour développer ma capacité à mener des 
 
 ## Investissement
 
-Pour faire mes recherches, j’ai pris environ 15h, espacées sur les deux semaines à disposition. J’ai pris ce temps, car je voulais vraiment aller en profondeur dans mes recherches et bien comprendre le sujet, afin de gagner du temps pour la partie de la pré-étude du TB.
+Pour faire mes recherches, j’y ai consacré un temps réparti sur les deux semaines à disposition. J’ai pris ce temps afin de pouvoir aller en profondeur dans mes recherches et bien comprendre le sujet, dans l’objectif de gagner du temps pour la partie de la pré-étude du TB.
 
-J’ai profité également des cours à option que nous avions à disposition, pour poser des questions spécifiquement pour le B2B, ce qui m’a permis également d’avoir un retour de la part de professionnels et de confirmer mes recherches.
+J’ai également profité des cours à option que nous avions à disposition pour poser des questions spécifiquement liées au B2B. Cela m’a permis d’obtenir un retour de la part de professionnels et de confirmer certains éléments issus de mes recherches.
 
-Pour la réalisation du schéma du buyer journey, j’ai constaté que de nombreux schémas existaient déjà, et donc qu’il aurait été intéressant d’établir le buyer journey spécifique à mon cas de TB. Or, ce n’était pas possible, puisque je n’ai pas encore fait de recherches sur les clients, ni établi de personas.
+Pour la réalisation du schéma du buyer journey, j’ai constaté que de nombreux schémas existaient déjà. Il aurait donc été intéressant d’établir un buyer journey spécifique à mon cas de TB. Toutefois, cela n’était pas possible, puisque je n’ai pas encore réalisé de recherches sur les clients ni établi de personas.
 
-Le tableau des critères UX a été établi en 2-3h. L’idée étant de faire des recherches, récupérer les informations données durant les cours, pour qu’il soit facilement utilisable lors de la réalisation du TB.
+Le tableau des critères UX a été réalisé assez rapidement. L’idée était de faire quelques recherches et de reprendre les informations données durant les cours afin de créer un outil facilement utilisable lors de la réalisation du TB.
 
 Concernant le wireframe, je ne l’ai pas réalisé. En effet, je trouvais que cela n’avait pas beaucoup de sens de le réaliser, puisqu’à nouveau, je n’ai fait aucune recherche spécifique sur les clients utilisant le service d’e-learning. Donc, cela aurait été créer un wireframe sur des critères trop larges et peut-être pas suffisamment précis, pour correspondre à ceux des clients effectifs.
 
