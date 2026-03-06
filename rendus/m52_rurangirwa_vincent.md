@@ -1,6 +1,6 @@
 # M52-1/2 Rurangirwa Vincent - Qu'est ce qu'un LMS?
 
-# ETAT INITIAL ET OBJECTIFS À RENDRE POUR LE 23 FEVRIER 23h59
+# ETAT INITIAL ET OBJECTIFS À RENDRE POUR LE 23 FEVRIER 23h59 
 
 ## Mon sujet d'étude est la définition et exploration des possibilités et des limites des LMS (Learning Management System)
 
