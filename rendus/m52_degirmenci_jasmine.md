@@ -76,24 +76,67 @@ L'expérimentation consistera à simuler la création de nos fiches produits à 
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Mon attente initiale était de comprendre comment rendre l'application Goodtrack Connect visible de manière organique. La réalité de l'auto-formation m'a confrontée à une discipline beaucoup plus rigide et mathématique que prévu. En communication classique, on cherche la belle formule ; en ASO, on cherche la densité du mot-clé et l'optimisation au caractère près.
+
+Les trois objectifs fixés ont été atteints : j'ai assimilé les différences entre les algorithmes, j'ai extrait mes 30 mots-clés stratégiques et j'ai produit mon POC (fiches optimisées). Cependant, la réalité m'a montré que la phase de recherche sémantique est beaucoup plus chronophage qu'imaginée. Il faut sans cesse croiser le volume de recherche avec la pertinence réelle pour le produit et le niveau de concurrence, ce qui demande beaucoup d'allers-retours.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+1. Doit-on rédiger exactement la même fiche pour l'App Store et le Google Play Store, ou y a-t-il des règles différentes pour chacun ?
+   
+_Reformulation : Quelles sont les différences algorithmiques majeures d'indexation entre iOS et Android ?_
+
+Non, les fiches doivent être différentes. L'algorithme d'Apple se base uniquement sur le Titre, le Sous-titre et un "champ caché" de mots-clés (limité à 100 caractères). La description longue n'a aucun impact direct sur le référencement iOS. À l'inverse, Google Play fonctionne comme un vrai moteur de recherche : il scanne l'intégralité de la description longue. Il faut donc répéter intelligemment les mots-clés (densité d'environ 2 à 3%) sur Android, ce qui serait totalement inutile sur Apple.
+
+2. Comment savoir concrètement quels mots les utilisateurs tapent dans la barre de recherche ?
+   
+On ne peut pas se fier à la seule intuition marketing. Il faut utiliser des outils spécialisés (comme AppTweak, AppRadar ou Keyword Tool) qui fournissent deux métriques clés : le "Volume de recherche" et la "Difficulté". Pour Goodtrack, il s'est avéré plus stratégique de cibler un mot-clé de niche (ex: "défis écologiques") où l'on peut espérer être classé dans le top 3, plutôt qu'un mot générique ("écologie") monopolisé par des applications installées depuis des années.
+
+4. Quel est le véritable impact de la "Catégorie" choisie sur nos chances d'être vus ?
+   
+La catégorie influence directement les classements par thématique (Top Charts) et les recommandations d'applications similaires. Se positionner dans une catégorie extrêmement concurrentielle comme "Style de vie" rend la visibilité presque impossible au lancement. Choisir une catégorie un peu plus ciblée (comme "Éducation" ou "Utilitaires") permet d'atteindre plus facilement le top 20 de cette section, ce qui génère un trafic organique par navigation (les gens qui parcourent les catégories sans faire de recherche précise).
+
+6. Y a-t-il des limites strictes à ne pas dépasser pour les titres et les descriptions ?
+   
+Oui, et elles sont techniquement bloquantes. Sur l'App Store comme sur Google Play, le Titre est limité à 30 caractères. Le sous-titre iOS fait maximum 30 caractères, tandis que la description courte Google en autorise 80. Dépasser ces limites d'un seul espace empêche la sauvegarde et la soumission de l'application dans la console développeur.
+
+8. Concrètement, comment fonctionnent les annonces payantes (Search Ads) et est-ce indispensable ?
+   
+Les Apple Search Ads (ASA) permettent d'enchérir financièrement pour apparaître tout en haut des résultats de recherche sur un mot-clé précis, avant même le premier résultat organique. Pour un lancement comme celui de Goodtrack Connect, c'est un levier quasiment indispensable au démarrage : l'application n'ayant ni historique ni avis, son référencement naturel initial sera faible. Acheter de la visibilité permet de générer les premiers téléchargements, ce qui envoie un signal positif à l'algorithme pour faire remonter l'application organiquement par la suite.
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+J'ai réalisé mon "Dossier de soumission Store" en utilisant un tableur structuré pour simuler les limites de caractères exactes des stores. L'expérimentation a été extrêmement formatrice sur la gestion de la frustration éditoriale. Réussir à placer le nom de l'application ET un mot-clé principal fort en moins de 30 caractères est un véritable casse-tête technique.
+
+Cela m'a forcée à faire des choix drastiques et à abandonner le jargon purement institutionnel pour me concentrer sur l'intention de recherche de l'utilisateur. Le POC m'a également prouvé qu'une fiche Android exige un travail de "copywriting SEO" (rédaction optimisée pour les moteurs de recherche) très différent de la fiche iOS, qui est beaucoup plus chirurgicale.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+En toute transparence, l'investissement réel a été inférieur aux prévisions initiales. J'ai constaté un écart global d'environ 6 heures, principalement dû à l'efficacité de certains outils et aux limites des versions gratuites.
+
+Cadrage (Prévu: 4h / Réel: 4h / Écart: 0h) : Le temps passé sur la définition du sujet et la validation des objectifs lors du premier rendu a été respecté.
+
+Théorie (Prévu: 8h / Réel: 6h / Écart: -2h) : La documentation officielle d'Apple et Google pour les développeurs est finalement très bien structurée et synthétique. L'assimilation des règles algorithmiques m'a demandé moins de temps que prévu.
+
+Analyse et Mots-clés (Prévu: 10h / Réel: 8h / Écart: -2h) : Je pensais passer beaucoup de temps à croiser des milliers de données, mais les versions gratuites des outils ASO (comme AppRadar) bloquent rapidement l'accès aux recherches profondes. Cela m'a forcée à être beaucoup plus directe et sélective dans ma méthode pour trouver mes 30 mots-clés, ce qui a paradoxalement accéléré cette phase.
+
+Expérimentation POC (Prévu: 10h / Réel: 8h / Écart: -2h) : Je m'attendais à bloquer longuement sur la rédaction, mais le fait d'avoir créé un tableur avec des formules comptant automatiquement les caractères a rendu le processus de test très mécanique et rapide. Une fois la méthode comprise, les textes se sont construits comme un puzzle.
+
+Bilan & Rapport (Prévu: 4h / Réel: 4h / Écart: 0h) : Le temps alloué à la rédaction de ce rapport final, à la relecture et à l'auto-évaluation a été respecté.
+
+TOTAL (Prévu: 36h / Réel: 30h) : L'auto-formation a donc nécessité une trentaine d'heures. Cet écart s'explique par une courbe d'apprentissage plus rapide qu'imaginée sur la partie théorique et technique.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+L'avantage majeur de l'auto-formation est l'apprentissage hyper-contextualisé. Au lieu d'apprendre la théorie de l'ASO de manière abstraite, j'ai pu appliquer chaque concept directement au cas réel de Goodtrack Connect. L'implication est totale car le résultat a une utilité immédiate pour mon diplôme.
+
+L'inconvénient principal réside dans l'accès restreint aux outils professionnels. Les logiciels d'analyse ASO performants coûtent cher. Pour un étudiant en auto-formation, il faut constamment ruser, jongler entre plusieurs périodes d'essai gratuites et des versions limitées pour extraire des données fiables, ce qui casse parfois la dynamique de travail.
 
 ## Conclusion
 
 _Quelles leçons avez-vous apprises et pourquoi ?_
+
+J'ai appris que la visibilité numérique ne se décrète pas uniquement par une bonne idée créative ou un beau discours, mais par une conformité stricte aux contraintes des algorithmes. L'ASO m'a appris que les mots ont un "poids mathématique" avant d'avoir un poids sémantique. J'ai aussi compris que l'optimisation n'est pas une action ponctuelle, mais un processus itératif qu'il faudra ajuster après le lancement.
+
 _Quelles implications pour votre TB et pourquoi ?_
+
+Ce module a un impact très concret sur la phase de déploiement de mon Travail de Bachelor. Plutôt que de me limiter à des recommandations de communication globales, je vais fournir à l'équipe de Goodtrack des métadonnées prêtes à être intégrées directement dans l'App Store Connect et la Google Play Console. L'ASO devient ainsi le pilier central de ma stratégie d'acquisition : j'ai compris que la fiche produit organique se doit d'être absolument irréprochable algorithmiquement pour capter le maximum de trafic naturel et garantir un bon taux de conversion dès le lancement de l'application.
