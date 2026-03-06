@@ -64,24 +64,95 @@ La preuve de mon apprentissage ce verra je pense dans ma capacité à expliquer 
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Au début, je pensais que je savais faire un bon questionnaire. J’avais déjà utilisé Google Forms, je savais structurer des questions de manière logique, et ça me semblait suffisant.
+
+Mais pendant cette auto-formation, je me suis rendu compte que je fonctionnais disons à l’intuition. Je réfléchissais pas vraiment aux biais, à la neutralité des formulations et à l’impact de leur ordre.
+
+Je me suis surtout rendu compte que sur un sujet sensible comme la finance, je pouvais facilement influencer les réponses sans m’en rendre compte.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+1. Quels biais peuvent influencer les réponses dans un questionnaire et comment les éviter ?
+
+En faisant, j’ai compris qu’il y a plusieurs biais qui peuvent fausser les réponses, comme le biais de formulation, le biais de désirabilité sociale, le biais d’ordre ou encore le biais d’ancrage.
+
+Avant, je faisais pas vraiment attention à ça. Maintenant, quand je crée une question, je me demande toujours si elle pousse inconsciemment vers une réponse.
+
+Pour les éviter, j’ai appris que je dois utiliser un vocabulaire neutre, éviter les jugements et toujours me demander si la question peut être interprétée de plusieurs manières différentes.
+
+
+
+2. Comment formuler une question sensible liée à l’argent de manière neutre ?
+
+J’ai réalisé que parler d’argent peut vite mettre les gens mal à l’aise. Si la question elle est trop directe, la personne peut soit mentir, soit répondre de manière défensive ou peu précise.
+
+Maintenant, j’essaie de formuler les questions de manière "descriptive". Par exemple, au lieu de demander si quelqu’un “gère mal” son argent, je préfère lui demander comment il évalue sa gestion financière.
+
+Je fais aussi attention à proposer des réponses qui mettent pas la pression et qui laissent de la nuance.
+
+
+
+3. Pourquoi l’ordre des questions joue-t-il un rôle dans les réponses données ?
+
+Avant de faire l'auto-formation, je sous-estimais l’impact de l’ordre des questions.
+
+J’ai compris qu’une question peut influencer la suivante. Si je commence par quelque chose de trop sensible, ça peut bloquer la personne pour la suite.
+
+Maintenant je comprends l’importance d’une logique en entonnoir, c'est mieux de commencer large, installer un climat de confiance, puis aller plus loin vers des sujets plus précis/touchy.
+
+
+4. Comment structurer un questionnaire de manière logique ?
+
+Pour moi, structurer un questionnaire, c’est maintenant penser en termes de parcours utilisateur.
+
+Je dois créer une progression fluide avec : introduction claire, questions générales, puis plus spécifiques, et finir avec les questions plus sensibles.
+
+Je dois aussi vérifier que chaque question a un vrai rôle. Si je sais pas expliquer pourquoi elle est là, c’est qu’elle est peut-être pas nécessaire.
+
+
+5. Comment vérifier qu’un questionnaire est solide en termes de méthodologie avant de le mettre en action ?
+
+J’ai compris que le pré-test est essentiel.
+
+Avant, j'y pensais même pas. Maintenant, je vois que faire tester le questionnaire ça permet de repérer des ambiguïtés ou des biais invisibles pour moi.
+
+Je me suis aussi habitué à me poser des questions critiques du genre :
+Est-ce que cette question est utile ?
+Est-ce qu’elle est neutre ?
+Est-ce qu’elle peut être interprétée differement ?
+
+Si je peux justifier chaque élément, j'estime que le questionnaire est plus solide.
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+Même si j'ai pas encore créé le questionnaire final de mon TB, cette phase d’expérimentation m'a bien aidé niveau mindset je pense.
+
+J’ai pris des questions que j’aurais écrites spontanément au début, et je les ai retravaillées avec une approche plus méthodologique. Et franchement, je me suis rendu compte que mes premières versions étaient souvent orientées sans que je fasse exprès.
+
+Ce travail m’a surtout appris à être plus sûr. À ne pas écrire une question trop vite. À prendre le temps de réfléchir à l’impact qu’elle peut avoir.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+Globalement, je me suis assez bien tenu à la répartition que j’avais prévue.
+
+La partie théorique m’a demandé plus d’effort que ce que j’pensais. Lire sur les biais et vraiment comprendre les mécanismes ça m’a pris du temps.
+
+Par contre, une fois que j’avais les bases, la partie reformulation et entraînement était plus fluide.
+
+Je dirais que l’investissement a été cohérent avec ce que j’avais annoncé, mais plus intense que prévu au début.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Ce que j’ai apprécié, c’est la liberté. J’ai pu aller à mon rythme et approfondir les points qui me semblaient vraiment importants pour mon TB.
+
+Par contre, ça demande pas mal d’autodiscipline mais pour la bonne cause.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+La plus grande leçon que je retiens, c’est que la qualité des données dépend directement de la qualité des questions.
+
+Avant, je voyais le questionnaire comme une formalité. Maintenant, je le vois plus comme un outil stratégique dans mon TB.
+
+Ça m’a permis d'être plus conscient et en confiance.
+
+Pour mon TB ça me permettra d’avoir des données plus fiables et ducoup une analyse plus solide, plus crédible.
