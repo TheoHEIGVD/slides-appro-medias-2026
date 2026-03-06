@@ -97,7 +97,7 @@ J’espère pouvoir m’appuyer dessus ensuite dans mon TB.
 
 ## Retour sur l'état initial
 
-Au début mon objectif était de comprendre comment fonctionne un tunnel de conversion et de pouvoir le modéliser avec des chiffres afin de l’appliquer à mon TB. Je pensais que la partie théorique serait relativement rapide et que la majorité du travail consisterait surtout à construire un modèle simple avec quelques hypothèses.
+Au début, mon objectif était de comprendre comment fonctionne un tunnel de conversion et de pouvoir le modéliser avec des chiffres afin de l’appliquer à mon TB. Je pensais que la partie théorique serait relativement rapide et que la majorité du travail consisterait surtout à construire un modèle simple avec quelques hypothèses.
 
 En réalité, j’ai réalisé que comprendre concrètement un tunnel de conversion demande plus de réflexion que ce que j’imaginais. La difficulté ne se situe pas seulement dans la définition des étapes du tunnel, mais surtout dans la compréhension des relations entre ces étapes et dans l’impact que peuvent avoir les taux de conversion.
 
@@ -105,7 +105,7 @@ J’ai également eu moins de temps disponible que prévu pour travailler sur ce
 
 Malgré cela, j’ai pu mieux comprendre comment fonctionne la logique d’un tunnel de conversion et pourquoi il est important de modéliser les différentes étapes. Cette approche permet de passer d’une idée assez intuitive du marketing ou de la vente à une vision plus structurée et mesurable.
 
-Un élément qui m’a marqué est l’impact des taux de conversion. Même une petite modification peut avoir un impact très important. Par exemple, Expedia. L’entreprise avait un champ obligatoire “Company name” dans son formulaire de paiement et beaucoup d’utilisateurs ne savaient pas quoi mettre et abandonnaient l’achat. Expedia a simplement supprimé ce champ du formulaire ce qui a augmenté les conversions et généré 12 millions de dollars de revenus supplémentaires par an.. Cet exemple montre que simplifier une seule étape dans un tunnel peut augmenter significativement les conversions.
+Un élément qui m’a marqué est l’impact des taux de conversion. Même une petite modification peut avoir un impact très important. Par exemple, Expedia. L’entreprise avait un champ obligatoire “Company name” dans son formulaire de paiement et beaucoup d’utilisateurs ne savaient pas quoi mettre et abandonnaient l’achat. Expedia a simplement supprimé ce champ du formulaire ce qui a augmenté les conversions et généré 12 millions de dollars de revenus supplémentaires par an. Cet exemple montre que simplifier une seule étape dans un tunnel peut augmenter significativement les conversions.
 
 Cette réflexion est directement utile pour mon TB, car elle me permet d’aborder la question de la prévente du magazine avec une approche plus analytique.
 
@@ -113,7 +113,7 @@ Cette réflexion est directement utile pour mon TB, car elle me permet d’abord
 
 1. Quelles sont les étapes essentielles d’un tunnel de conversion et pourquoi sont-elles structurées dans cet ordre ?
 
-Un tunnel de conversion est structuré en plusieurs étapes, toutes permettent de transformer petit à petit un visiteur en acheteur. On peut le simplifier en quatre étapes, acquisition, engagement, intention et conversion.
+On peut le simplifier en quatre étapes, acquisition, engagement, intention et conversion.
 
 L’acquisition correspond au moment où une personne découvre le produit ou le contenu. Dans mon cas, cela correspond par exemple à une publication Instagram qui parle du magazine.
 
@@ -165,8 +165,6 @@ Par exemple, si 10 000 personnes visitent une page et que 200 achètent le produ
 
 Selon les données du site d’analyse e-commerce Littledata, le taux de conversion moyen d’un site e-commerce se situe généralement entre 2 % et 3 %.
 
-Source : Littledata, Average Ecommerce Conversion Rate, 2023.
-
 Un autre indicateur important est le taux d’abandon, qui permet d’identifier à quelle étape les utilisateurs quittent le tunnel.
 
 taux d’abandon = (nombre d’utilisateurs qui quittent l’étape / nombre d’utilisateurs qui arrivent à cette étape) × 100
@@ -176,8 +174,6 @@ Par exemple, si 1 000 personnes ajoutent un produit au panier mais seulement 300
 (700 / 1 000) × 100 = 70 % d’abandon
 
 Une étude du Baymard Institute (2024) montre que le taux moyen d’abandon de panier en e-commerce est d’environ 70 %.
-
-Source : Baymard Institute, Cart Abandonment Rate Statistics, 2024.
 
 Enfin, un indicateur essentiel pour analyser la rentabilité est le coût d’acquisition client (CAC). Il mesure combien une entreprise dépense pour obtenir un nouveau client.
 
