@@ -95,7 +95,7 @@ Je pense que mes objectifs étaient réalistes par rapport au temps à consacrer
 
 ## Réponses aux 5 questions
 
-1. Quelles sont les spécificités d’un buyer journey B2B SaaS ?
+### 1. Quelles sont les spécificités d’un buyer journey B2B SaaS ?
 
 Le buyer journey en B2B est différent du B2C, notamment par sa complexité. En B2C, une seule personne prend la décision d’achat, quand dans le cas du B2B, cela implique plusieurs personnes au sein de l’entreprise.
 
@@ -103,7 +103,7 @@ Par ailleurs, le processus est souvent plus long, il y a également des allers-r
 
 Les acheteurs passent également une grande partie de leur parcours à chercher des informations, de manière autonome, avant d’entrer en contact avec un fournisseur. Dans le cas du SaaS, les canaux digitaux jouent un rôle essentiel, pour de la démonstration du produit, des essais gratuits, etc.
 
-2. Quels rôles décisionnels retrouve-t-on typiquement en B2B ?
+### 2. Quels rôles décisionnels retrouve-t-on typiquement en B2B ?
 
 Dans le processus d’achat B2B, on retrouve plusieurs rôles dans ce que l’on appelle le buying center :
 
@@ -114,19 +114,19 @@ Dans le processus d’achat B2B, on retrouve plusieurs rôles dans ce que l’on
 - Gatekeeper
 - Utilisateur
 
-3. Quels critères influencent principalement la décision ?
+### 3. Quels critères influencent principalement la décision ?
 
 Les décisions d’achat en B2B sont influencées par plusieurs critères organisationnels et économiques. On retrouve le critère le plus important, qui est le retour sur investissement. En effet, les entreprises doivent justifier des solutions qui leur apportent une amélioration de la productivité ou une réduction de coûts.
 
 Ces différents critères, une fois déterminés sur les personas, permettent d’améliorer la rédaction de la page du produit, en mettant en avant les informations que les clients chercheront pour prendre leur décision.
 
-4. Comment traduire un critère en principe UX ?
+### 4. Comment traduire un critère en principe UX ?
 
 Le but est de transformer le besoin d’information de l’acheteur en une réponse qui lui permet de facilement évaluer le produit. Puisque chaque critère correspond à une question que les acheteurs se posent pendant le processus de décision, il est important que les informations soient facilement trouvables, et d’éviter des frictions qui feraient que l’acheteur nous élimine de la liste des possibilités.
 
 Par exemple, un critère comme le retour sur investissement peut être traduit en UX par des contenus qui démontrent la valeur économique du produit, comme des études de cas ou des calculateurs de ROI. De la même manière, les préoccupations liées à la sécurité peuvent être adressées par des pages expliquant les certifications ou les pratiques de protection des données.
 
-5. Comment vérifier qu’un touchpoint soutient la prise de décision ?
+### 5. Comment vérifier qu’un touchpoint soutient la prise de décision ?
 
 Pour vérifier qu’un touchpoint soutient réellement la prise de décision, il est possible d’utiliser différentes méthodes de recherche et d’évaluation UX.
 
@@ -152,7 +152,7 @@ Pour la réalisation du schéma du buyer journey, j’ai constaté que de nombre
 
 Le tableau des critères UX a été établi en 2-3h. L’idée étant de faire des recherches, récupérer les informations données durant les cours, pour qu’il soit facilement utilisable lors de la réalisation du TB.
 
-Concernant le wireframe, je ne l’ai pas réalisé. D’une part, par manque de temps. D’autre part, parce que je trouvais que cela n’avait pas beaucoup de sens de le réaliser, puisqu’à nouveau, je n’ai fait aucune recherche spécifique sur les clients utilisant le service d’e-learning. Donc, cela aurait été créer un wireframe sur des critères trop larges et peut-être pas suffisamment précis, pour correspondre à ceux des clients effectifs.
+Concernant le wireframe, je ne l’ai pas réalisé. En effet, je trouvais que cela n’avait pas beaucoup de sens de le réaliser, puisqu’à nouveau, je n’ai fait aucune recherche spécifique sur les clients utilisant le service d’e-learning. Donc, cela aurait été créer un wireframe sur des critères trop larges et peut-être pas suffisamment précis, pour correspondre à ceux des clients effectifs.
 
 ## Réflexion sur la méthode d'auto-formation
 
