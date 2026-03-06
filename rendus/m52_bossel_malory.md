@@ -195,24 +195,137 @@ Ce test utilisateur me servira à :
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Au début de ce travail, mon objectif était de structurer mes connaissances sur les tests utilisateurs et de développer ensuite une méthodologie que je pourrais utiliser dans mon travail de Bachelor. J'avais déjà une bonne compréhension de l'UX de part tous les cours qu'on a eu à ce sujet ainsi que des tests utilisateurs. Cependant, cette connaissance restait assez théorique et je n'ai pu la tester que quelques fois dans le cadre de cours à l'heig-vd.
+
+L'un de mes objectifs principaux était de comprendre les différents types de tests utilisateurs qu'il existe et de réussir à identifier lesquels choisir en fonction de chaque situation. Je souhaitais également créer mes propres outils d'évaluation afin de rendre mes tests plus personnalisés et plus analytiques plutôt que de me baser uniquement sur des impressions générales de l'utilisateur quant au produit testé.
+
+Durant mon trvail, je me suis rendue compte que la partie la plus enrichissante n'était pas seulement la recherche théorique mais surtout l'expérimentation. Le fait de faire passer un test utilisateur à une personne de mon entourage m'a confronté à la réalité du terrain et aussi à la compréhension générale liée à mes nouveaux outils et mes nouvelles connaissances. 
+
+Le bilan de ce travail a de ce fait été très positif pour moi car mes attentes ont été globalement atteintes et même dépassées dans certains cas notamment en ce qui concerne la partie analyse de résultats grâce à ma grille. Celle-ci m'a permis d'être plus efficace dans la recherche de solutions et d'améliorations concrètes.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+###1.  Suis-je capable de choisir le type de test utilisateur adapté à une situation donnée et de justifier mon choix ?
+
+Oui, cette mini auto-formation m'a permis de mieux comprendre les différences entre les types de tests et dans quelle situation on doit utiliser chaque test afin d'obtenir les réponse dont on a besoin.
+Par exemple, si l’objectif est de comprendre comment un utilisateur découvre une interface pour la première fois, un test exploratoire modéré est particulièrement adapté. Il permet d’observer les réactions spontanées et d’interagir avec le participant pour comprendre ses raisonnements directement pendant le test à chaud au lieu d'attendre la fin. De plus, c'est plus facile pour le testeur et il sera plus participatif à l'oral que dans un questionnaire à remplir type google form.
+En revanche, si l’objectif est de mesurer l’efficacité de deux versions d’une interface, un test comparatif ou A/B sera plus pertinent.
+J’ai également compris que certains tests sont plus adaptés aux phases précoces du design (tests exploratoires sur maquettes) tandis que d’autres sont utiles pour valider une interface existante.
+Cette capacité à choisir une méthode adaptée est importante car elle permet d’éviter des tests inutiles ou mal ciblés.
+
+###2.  Ma grille d’évaluation permet-elle d’obtenir des données exploitables et non seulement des impressions générales ?
+La grille que j’ai conçue s’est révélée utile pour structurer les retours des utilisateurs.
+
+Elle comporte plusieurs types de questions :
+
+- des échelles de satisfaction (1 à 5) sur des critères précis (clarté de navigation, compréhension du contenu, facilité d’utilisation, etc.)
+- des questions ouvertes permettant de recueillir des impressions qualitatives
+- des questions sur les difficultés rencontrées
+
+Grâce à cette structure, les réponses obtenues étaient plus exploitables que de simples commentaires spontanés. Par exemple, les échelles permettent de repérer rapidement les points faibles de l’interface, tandis que les réponses ouvertes permettent de comprendre les raisons derrière ces évaluations.
+
+Cela m’a également aidé à comparer plus facilement les observations avec les comportements observés pendant le test.
+
+###3.  Suis-je capable d’identifier un problème UX à partir de comportements observés et non seulement d’opinions ?
+L’un des apprentissages importants de ce travail a été de faire la distinction entre ce que l’utilisateur dit et ce qu’il fait réellement.
+
+Pendant le test, j’ai observé plusieurs comportements révélateurs :
+
+- hésitations dans la navigation
+- recherche d’un bouton à un endroit inattendu
+- clics répétés sur des éléments non interactifs
+
+temps de compréhension plus long pour certaines actions
+
+Ces comportements sont souvent plus révélateurs que les réponses verbales. Par exemple, un utilisateur peut dire que le site est simple à utiliser, mais son comportement peut montrer qu’il rencontre plusieurs difficultés.
+Grâce à la grille d’analyse que j’ai créée, j’ai pu identifier ces situations et les classer en fonction de leur impact sur l’expérience utilisateur.
+
+*test effectué sur le site web des cff
+
+###4.  Mes recommandations sont-elles concrètes, mesurables et liées aux observations du test ?
+Suite au test utilisateur, j’ai identifié plusieurs problèmes UX et proposé des améliorations concrètes.
+
+Par exemple :
+- déplacer certains éléments de navigation pour les rendre plus visibles
+- clarifier certains intitulés de boutons
+- simplifier certaines étapes du parcours utilisateur
+
+Chaque recommandation est liée à une observation précise faite pendant le test. Cela permet d’éviter des modifications basées uniquement sur des intuitions.
+Cette approche rend les améliorations plus justifiables et plus pertinentes dans un projet de design et encore plus dans un travail de Bachelor dans lequel je vais vraiment devoir justifier tous mes choix.
+
+###5.  Ai-je réellement progressé dans ma capacité d’analyse critique entre le début et la fin du projet ?
+Oui, j'estime que j'ai progressé dans ma manière d'analyser les résultats de tests utilisateurs. Au début, j'avais tendance à analyser une interface de manière assez intuitive. Après cette auto-formation, mon approche est devenue plus méthodique avec des points sur lesquels me pencher pour être sûre de ne rien louper. Je les ai regroupé en plusieurs catégories:
+- l'observation des comportements
+- la collecte de données structurée
+- l'identification des problèmes rencontrés par les utilisateurs
+- la priorisation des améliorations possibles
+
+Cette démarque méthodique m'aide à avoir un regard plus critique et surtout moins subjectif qu'aparavant.
+
+  
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+Pour l’expérimentation, j’ai réalisé un test utilisateur sur un site web existant (CFF). L’objectif était d’observer comment un utilisateur interagit avec l’interface et d’identifier d’éventuelles difficultés.
+
+J’ai demandé au participant de réaliser plusieurs tâches précises, par exemple :
+
+- trouver une information spécifique liée aux abonnements
+
+- naviguer vers une page précise
+
+- effectuer une action sur le site (prendre un abonnement)
+
+Pendant le test, j’ai observé son comportement sans intervenir, tout en prenant des notes sur :
+
+- les hésitations
+- les erreurs
+- les moments de confusion
+- les commentaires spontanés
+
+Après le test, le participant a rempli la grille d’évaluation que j’avais conçue.
+
+Cette expérimentation a été très formatrice car elle m’a permis de voir concrètement comment un utilisateur interagit avec une interface. Certains problèmes que je n’avais pas remarqués sont apparus très clairement pendant l’observation.
+
+Cela montre l’importance des tests utilisateurs dans la conception d’un produit digital.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+Au départ, j’avais estimé le temps de travail à environ 36 heures, réparties entre recherche théorique, création des outils, expérimentation et rédaction du rapport.
+
+Dans la pratique, le temps a été réparti de la manière suivante :
+
+- Recherche et documentation : environ 5 heures
+- Création des grilles d’évaluation : environ 3 heures
+- Préparation et réalisation du test utilisateur : environ 6 heures
+- Analyse des résultats : environ 2 heures
+- Rédaction du rapport et auto-évaluation : environ 4 heures
+
+L’investissement total en nombre d'heures est moins haut ce qui était prévu, même si certaines étapes ont demandé plus de temps que prévu, notamment la conception des grilles d’analyse et l’interprétation des résultats.
+J'ai utilisé le temps que j'avais à ma disposition pour établir de réelles méthodes qui vont pouvoir m'aider notamment dans mon travail de bachelor. De plus, les connaissance acquises font tout de même partie de la culture générale et ont permi d'enrichir mes connaissances.
+Enfin, je tiens à préciser que j'ai passé un peu moins d'heures que prévu sur cette auto-formation car j'ai récemment obtenu une place de travail en agence web dans laquelle j'interviens en tant que designer ux/ui. Cette formation ainsi que mon travail on de ce fait pu agir de manière complémentaire en ayant d'une part quelque chose d'assez scolaire et théorique (malgré le test utilisateur) et d'autre part de la pratique lors de la création de maquettes pour le travail. J'ai donc utilisé les connaissances que j'ai développé au cours de cette formation dans mon travail en apportant un nouveau regard sur les points de friction que rencontres les utilisateurs et ce sur quoi je dois me méfier en tant que designer.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Cette auto-formation présente plusieurs avantages.
+Tout d’abord, elle permet de travailler sur un sujet directement lié à son projet personnel, ce qui rend l’apprentissage plus concret et motivant. Elle offre également une grande liberté dans l’organisation du travail et dans le choix des ressources utilisées.
+
+Cependant, l’auto-formation demande aussi une grande discipline. Sans cadre strict, il peut être difficile de structurer sa progression ou de savoir si l’on approfondit suffisamment certains aspects.
+Dans mon cas, la définition d’objectifs précis au départ m’a aidé à structurer mon travail et à mesurer ma progression.
+
+Je me suis également rendu compte que l’expérimentation pratique est un élément essentiel dans ce type d’apprentissage. La théorie seule ne suffit pas à comprendre toutes les dimensions des tests utilisateurs.
+
+Enfin, je dois tout de même avouer qu'il a été difficile pour moi de consacrer le nombre d'heures recommandé initialement à cette formation dans la mesure où je commençais mon nouveau travail en même temps. J'ai tout de même réussi à arriver au bout de mes objectifs et en suis satisfaite !
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Cette auto-formation m’a permis de mieux comprendre les méthodes de tests utilisateurs et d’apprendre à structurer une démarche d’analyse UX.
+La principale leçon que j’en retiens est que les tests utilisateurs sont un outil essentiel pour améliorer une interface. Ils permettent de révéler des problèmes qui ne sont pas forcément visibles pour les concepteurs du produit.
+J’ai également appris l’importance d’une méthodologie claire, notamment dans la collecte et l’analyse des données.
+
+Pour mon Travail de Bachelor, ces compétences seront particulièrement utiles. Elles me permettront de :
+
+- tester mes maquettes de manière structurée
+- justifier mes choix de design
+- améliorer l’expérience utilisateur de manière objective
+
+Ce travail constitue donc une base solide pour intégrer les tests utilisateurs dans mon proces
