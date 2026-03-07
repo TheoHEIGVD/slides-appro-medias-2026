@@ -91,24 +91,111 @@ Cette mise en pratique permettra de tester la pertinence du cadre méthodologiqu
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Au début de cette auto-formation, mon objectif était principalement de mieux comprendre comment définir et utiliser des indicateurs de performance dans le domaine du marketing sportif. Même si je suis amenée à consulter des statistiques dans mon activité de community manager, je ne disposais pas d’une méthodologie claire permettant de relier ces données à des objectifs stratégiques précis.
 
+Avec le recul, cette auto-formation m’a permis de mieux structurer ma manière de penser les actions marketing. J’ai compris l’importance de définir des objectifs clairs en amont d’une action, puis de sélectionner des indicateurs pertinents permettant d’en mesurer les résultats. Avant ce travail, j’avais plutôt tendance à observer les statistiques après coup, sans toujours savoir comment les interpréter ou les utiliser pour orienter les décisions.
+
+Les objectifs fixés au départ ont globalement été atteints. J’ai pu identifier plusieurs KPIs pertinents, réfléchir à une méthode pour les structurer et expérimenter cette approche dans un contexte réel. La partie la plus formatrice a été la mise en pratique à travers l’événement organisé dans le cadre de mon travail.
+
+---
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+### 1. Comment traduire des objectifs marketing généraux en KPIs précis et mesurables ?
+
+La première étape consiste à définir clairement l’objectif de l’action marketing. Par exemple, une organisation peut vouloir augmenter sa visibilité, attirer de nouveaux clients, ou générer du trafic vers un événement.
+
+Une fois cet objectif défini, il est possible d’identifier les indicateurs permettant d’en mesurer l’efficacité. Par exemple, un objectif de visibilité pourra être mesuré par la portée ou les impressions, tandis qu’un objectif de participation à un événement pourra être évalué par le nombre d’inscriptions ou le nombre de participants présents.
+
+L’important est que chaque KPI soit directement lié à l’objectif initial et qu’il puisse être mesuré de manière concrète.
+
+### 2. Quels indicateurs sont les plus pertinents selon le type d’action marketing sportive ?
+
+Les indicateurs pertinents varient selon le type d’action marketing.
+
+Dans le cadre des réseaux sociaux, les KPIs les plus utilisés sont généralement :
+- la portée des publications,
+- le taux d’engagement,
+- le nombre d’interactions ou de clics.
+
+Pour un événement sportif, les indicateurs peuvent être différents, par exemple :
+- le nombre d’inscriptions,
+- le taux de participation réel,
+- le trafic généré en magasin ou sur un site,
+- les ventes réalisées pendant l’événement.
+
+Chaque type d’action nécessite donc de sélectionner des indicateurs adaptés à son objectif principal.
+
+### 3. Comment calculer et interpréter un ROI dans une structure sportive locale ?
+
+Le ROI (Return on Investment) permet d’évaluer la rentabilité d’une action marketing. Il consiste à comparer les bénéfices générés par une action avec les coûts nécessaires à sa mise en place.
+
+La formule simplifiée est la suivante :
+
+ROI = (gains générés – coûts de l’action) / coûts de l’action
+
+Dans une structure sportive locale, les gains peuvent être liés à des ventes réalisées pendant un événement, à l’acquisition de nouveaux clients ou à des inscriptions à des activités.
+
+Cependant, certains bénéfices sont plus difficiles à quantifier, notamment ceux liés à la visibilité ou à l’image de marque. Il est donc important d’interpréter les résultats en tenant compte de ces éléments.
+
+### 4. Quels outils permettent un suivi efficace et régulier des performances marketing ?
+
+Les plateformes de réseaux sociaux proposent déjà des outils d’analyse intégrés, comme Instagram Insights ou Meta Business Suite, qui permettent d’observer l’évolution des performances.
+
+Cependant, pour avoir une vision globale, il est souvent utile de centraliser les données dans un tableau de bord. Des outils comme Google Sheets ou Excel permettent par exemple de regrouper les différents KPIs et d’en suivre l’évolution dans le temps.
+
+Dans un contexte professionnel plus avancé, certains outils de marketing analytics permettent également d’automatiser la collecte et la visualisation de ces données.
+
+### 5. Comment exploiter les données collectées pour améliorer une stratégie de communication ?
+
+L’analyse des KPIs permet de comprendre quelles actions fonctionnent le mieux et lesquelles doivent être améliorées.
+
+Les données collectées peuvent par exemple permettre d’identifier :
+- les contenus qui génèrent le plus d’engagement,
+- les canaux de communication les plus efficaces,
+- les actions qui génèrent le plus de participation ou de conversions.
+
+En utilisant ces informations, il devient possible d’adapter la stratégie marketing et d’optimiser les futures actions de communication.
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+L’expérimentation a été réalisée dans le cadre d’un événement sportif organisé au magasin Decathlon de Blandonnet le 26 février 2026.
+
+Cet événement m’a permis d’appliquer concrètement les principes étudiés durant cette auto-formation. Avant l’événement, j’ai réfléchi aux objectifs principaux, notamment la participation des clients, la visibilité de l’événement et le trafic généré en magasin.
+
+J’ai ensuite identifié plusieurs KPIs permettant d’analyser les résultats, comme le nombre d’inscriptions, le nombre de participants présents, l’engagement généré par la communication autour de l’événement et le trafic observé en magasin.
+
+Cette expérimentation a été particulièrement formatrice car elle m’a permis de confronter la théorie à une situation réelle. J’ai notamment constaté que certaines données sont relativement faciles à collecter, tandis que d’autres sont plus difficiles à mesurer précisément.
+
+Elle m’a également permis de mieux comprendre l’importance de définir les indicateurs avant l’action, afin de pouvoir analyser les résultats de manière plus structurée.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+L’investissement total prévu pour ce cours était de 36 heures. Dans l’ensemble, la répartition du temps s’est rapprochée de la planification initiale, même si certains ajustements ont été nécessaires.
+
+La phase de recherche théorique a pris légèrement plus de temps que prévu, notamment pour bien comprendre les notions de KPI, de performance marketing et de ROI.
+
+En revanche, la mise en pratique à travers l’événement organisé dans le cadre de mon travail m’a permis d’appliquer directement certaines notions, ce qui a facilité l’apprentissage.
+
+Au final, le temps a été réparti entre recherche, réflexion méthodologique et expérimentation concrète.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Cette auto-formation m’a permis de travailler de manière autonome sur un sujet directement lié à mes intérêts professionnels.
+
+L’un des principaux avantages de cette approche est la liberté de choisir les ressources et les méthodes d’apprentissage qui semblent les plus pertinentes. Cela permet également d’adapter le travail à ses propres besoins et à son rythme.
+
+Cependant, cette autonomie demande aussi une certaine discipline personnelle pour structurer son apprentissage et rester concentré sur les objectifs.
+
+Le fait de pouvoir appliquer directement les connaissances acquises à une situation professionnelle réelle a été particulièrement motivant et formateur.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Cette auto-formation m’a permis de mieux comprendre comment définir et utiliser des indicateurs de performance dans le domaine du marketing sportif.
+
+Au-delà des connaissances théoriques, le principal apprentissage concerne la manière de structurer une démarche d’analyse : définir les objectifs, sélectionner les indicateurs pertinents, collecter les données et interpréter les résultats.
+
+Ces compétences seront utiles dans mon futur professionnel dans le marketing digital et l’organisation d’événements sportifs.
+
+Bien que ce sujet soit davantage lié à mon activité professionnelle actuelle, il peut également avoir un lien avec mon Travail de Bachelor. En effet, la conception d’un écosystème numérique pour une salle de sport s’inscrit dans une stratégie plus globale de développement et d’animation d’une structure sportive.
+
+Dans ce contexte, des événements comme des journées portes ouvertes, des simulations Hyrox ou des activités découverte pourraient être organisés afin d’attirer de nouveaux membres. La capacité à définir des KPIs et à analyser leur impact permettrait alors d’évaluer l’efficacité de ces actions et d’orienter les décisions futures.
