@@ -48,24 +48,36 @@ L’expérimentation consiste à concevoir un prototype d’un wallet sur Figma.
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+J’avais déjà quelques bases en UX/UI et une connaissance des wallets comme utilisateur, mais je n’avais jamais analysé leur conception ni réalisé de prototype.
+
+Au final, j’ai pu analyser plusieurs wallets, comprendre les principaux enjeux UX du Web3 et créer un prototype sur Figma.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+1. Choisir la crypto, entrer l’adresse du destinataire, choisir le montant, vérifier les frais, confirmer la transaction et la signer avec le wallet.
+
+2. Parce que les transactions sont irréversibles. Une mauvaise interface peut facilement provoquer des erreurs et une perte de fonds.
+
+3. Envoyer des fonds à une mauvaise adresse, signer une transaction frauduleuse ou perdre l’accès à son wallet.
+
+4. En affichant une estimation claire des frais, en expliquant le gas et en montrant le coût total avant la confirmation.
+
+5. L’adresse du destinataire, le montant, les frais, le total et un bouton de confirmation clair.
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+J’ai réalisé un prototype de wallet sur Figma. Cela m’a permis de mettre en pratique ce que j’ai appris et de mieux comprendre comment structurer le parcours utilisateur dans une application Web3. C’était surtout utile pour réfléchir à la clarté des informations et aux écrans de confirmation.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+Le travail représentait environ 8-10 heures de prototypage et sinon 2-5 heures d'analyse et d'inspiration. J’ai passé du temps sur la recherche et l’analyse de wallets existants et fictif, puis sur le prototypage dans Figma.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Dans mon cas, cela m’a permis d’approfondir un sujet utile pour mon projet.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+J’ai pu pratiquer le prototypage sur Figma, cela faisait un moment que je n’avais pas créé quelque chose.
+
+Ces connaissances pourront être utiles pour mon Travail de Bachelor, notamment pour mieux réfléchir à l’expérience utilisateur dans les produits financiers.
