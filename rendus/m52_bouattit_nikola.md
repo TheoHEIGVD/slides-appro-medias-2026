@@ -56,23 +56,46 @@ Pour valider mon apprentissage de Django, je vais réaliser un POC sous la forme
 ## Retour sur l'état initial
 
 _Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Le bilan est positif. Je partais du néant total sur Django et avec un Python un peu rouillé ("très basique").
+Mes attentes étaient de savoir ce que je fais devant mon éditeur de code. C'est mission réussie : j'ai les bases pour ne pas perdre trois semaines sur le setup.
 
 ## Réponses aux 5 questions
 
 _Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+Est-ce que je sais installer Django et créer un environnement virtuel fonctionnel ?
+Oui, c'est devenu un automatisme.
+
+Est-ce que je suis capable de lancer le serveur local sans erreur ? 
+Oui, le manage.py runserver tourne nickel. J'ai appris à lire les messages d'erreurs dans le terminal
+
+Est-ce que je sais gérer les modèles et les migrations ? 
+Oui, j'ai compris le flux : on définit la classe dans models.py, on lance makemigrations puis migrate.
+
+Est-ce que j'ai fait le travail de réflexion moi-même ? 
+J'ai utilisé youtube, l'IA et de la doc officiel. Si il faut un pourcentage je dirais 40% IA avec copilot et claude, 50 de doc officiel et youtube pour démarrer.
+
+Est-ce que je peux expliquer simplement comment le code fonctionne ? 
+Je peux expliquer le pattern Model-View-Template. Ce n'est pas encore fluide à 100 %, mais je sais qui fait quoi.
 
 ## Résultat de l'expérimentation
 _Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+J'ai créé un petit POC (Proof of Concept) sous forme de site de gestion d'éléments bidon style boutique en ligne.
+
 
 ## Investissement
 
 _Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
-
+J'ai je pense fais plus dans les 20 heures de travail réel mais après il y a aussis le temps au moment ou je pense au projet pendant que je mange ou autre mais c'est dur a évaluer. La répartition a été un peu différente de mon plan initial : L'investissement a été plus lourd au début (le setup) qu'à la fin (le développement pur) alors que je m'attendais plus a l'inverse
 ## Réflexion sur la méthode d'auto-formation
 
 _En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Travailler au heure qu'on veut et tant qu'on est dedans est pratique après faut réussir a se motiver pour le faire et pas repousser encore et encore.
 
 ## Conclusion
 
 _Quelles leçons avez-vous apprises et pourquoi ?_
+Ce n'est pas un énorme succès, mais j'ai obtenu ce que je voulais : un niveau de compréhension basique.
+Et sinon personellement ayant déja commencé mille projets que je n'ai jamais pousser jusqu'au bout j'ai l'habitude des projets autoformateur
+
 _Quelles implications pour votre TB et pourquoi ?_
+Je vais pouvoir attaquer le TB sujet sans galérer sur l'installation ou l'utilisation de la base de données. Ce sera crucial pour bien garder le temps a dispositions du projet.
