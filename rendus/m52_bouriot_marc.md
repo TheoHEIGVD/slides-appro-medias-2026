@@ -141,24 +141,39 @@ Ce que je pourrais réutiliser concrètement plus tard dans mon TB.
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Au départ je pensais que ça allait être redondant et très long de me former, mais en faisant mes recherches sur différentes plateformes telles que YouTube ou TikTok, j’ai trouvé plein de petits tutoriels qui expliquent plutôt bien comment réaliser certaines micro‑interactions. J’ai appris beaucoup de petites choses lors de cette formation qui me seront utiles plus tard. La réalité de ces interactions, ce n’est pas qu’elles sont compliquées à faire, mais il faut savoir qu’elles existent et quand c’est pertinent de les utiliser. Mon objectif de base, c’était de cibler ce qui était utile pour mon TB précisément, mais finalement je suis resté plus général car il n’y avait pas vraiment d’élément précis pour une application communautaire.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+**Quelles fonctionnalités avancées de Figma (smart animate, interactive components, variables, etc.) je pourrais mettre en place dans le prototype Shifters, et à quels besoins UX répondent‑elles ?**
+Pour Shifters, le splash screen, le carousel et les textes animés apportent un côté esthétique et qualitatif qui renforce la perception de soin. Le splash screen et le carousel ont aussi une vraie valeur UX : le premier gère l’attente et pose le ton, le second optimise l’espace et facilite la découverte de plusieurs contenus. Les textes animés sont un peu moins essentiels fonctionnellement, mais ils restent utiles pour mettre en avant des informations importantes et rythmer la lecture si l’animation ne reste pas trop évidente.
+
+**Comment les micro‑interactions et animations que j'ai créées améliorent‑elles la compréhension des parcours utilisateurs (par ex. navigation, hiérarchie d’information, feedback d’action) ?**
+Le carousel améliore l’expérience en montrant clairement qu’il y a plusieurs éléments à parcourir derrière. L’utilisateur comprend rapidement qu’il peut faire défiler le contenu. Les liquid buttons ajoutent un côté ludique et offrent un feedback visuel très clair lors de l’interaction, ce qui renforce la sensation de contrôle.
+
+**De quelle manière l’organisation de mes composants et variants dans Figma m’aide‑t‑elle à maintenir des prototypes plus complexes, cohérents et faciles à faire évoluer au fil de mes essais ?**
+Je ne les utilise pas tout le temps car des fois c'est plus rapide de juste créer directement dans mon fichier de base, mais quand c'est une nav bar ou autre chose du style, c'est plus rapide que de repartir de zéro. Ça me permet aussi de garder une cohérence dans le style des maquettes et de ne pas avoir une différence de bordure ou autre. Je peux aussi modifier globalement et pas un élément à la fois.
+
+**Quels retours les testeurs ont‑ils donné sur la fluidité et le réalisme du prototype, et quelles modifications concrètes j'ai apportées suite à ces retours ?**
+Les retours des testeurs concernaient surtout une impression de surcharge : trop d’animations ou des mouvements un peu trop dynamiques par moments. Suite à ces remarques, les pistes d’amélioration sont de réduire le nombre d’éléments animés en même temps, de réduire certaines vitesses et amplitudes, et de réserver les effets les plus forts aux actions vraiment importantes. Cela devrait améliorer la lisibilité globale et rendre le prototype plus fluide et plus réaliste.
+
+**Quelles limites j'ai rencontrées avec Figma pour simuler une app mobile complète, et comment je les ais contournées (ou acceptées) ?**
+J’ai vu des limites surtout sur certaines interactions avancées, comme le drag, qui peut être un peu buggé ou moins fluide que sur une vraie app. Faire interagir plusieurs éléments entre eux de façon dynamique reste compliqué, voire impossible, avec les outils actuels de prototypage dans Figma. Pour contourner ces limites, j’ai simplifié certains comportements, privilégié des interactions plus linéaires et accepté que le prototype reste une approximation. L’objectif est d’illustrer clairement les intentions UX et les principaux parcours, même si tout le niveau de dynamique d’une app native ne peut pas être reproduit parfaitement.
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+Mon expérimentation s’est déroulée de manière classique : je cherchais des mots‑clés sur YouTube et TikTok et dès que je voyais quelque chose qui m’intéressait, je regardais la vidéo et suivais ce qu’il faisait. Dans quelques vidéos, des liens étaient disponibles pour des ressources, ce qui est utile si on veut revenir par la suite ou chercher de l’inspiration. Mon expérimentation a été formatrice plutôt sur l’aspect de la recherche autonome et la découverte / curiosité.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+Le temps de formation passé est un peu moins long de ce que j'avais prévus, dépendant de si on compte la recherche de ressources. Au départ, je pensais que j’allais passer beaucoup plus de temps, mais il y avait plusieurs micro‑interactions que je connaissais déjà ou que je ne trouvais pas pertinentes. Il y a aussi le fait que le rendu de mon cours à option est un projet, donc j’ai dû passer du temps dessus aussi. Cepandant j'ai passé plus de temps que prévu sur la partie guide / tutoriel, car expliquer simplement comment j'ai fais m'a demandé un peu plus de temps pour rester simple et efficace.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+Je pense que cette méthode, c’est celle qui fonctionne le mieux pour moi, étant donné que ça reste dans ma routine journalière, car je suis souvent devant l’ordinateur. De plus, le fait que je puisse aussi trouver des tutoriels sur TikTok me crée une sorte de veille passive et, quand je trouve quelque chose d’intéressant, je le mets en favoris pour y revenir plus tard. Cependant, comme toute auto‑formation, il faut y mettre du sien et ne pas tout remettre à plus tard, comme il est très facile de le faire, encore plus quand c’est sur une plateforme que j’utilise principalement pour jouer ou le divertissement. J’ai aussi constaté que quand on se forme sur quelque chose que nous avons choisi et qui nous plaît, c’est plus simple de s’y mettre, on ne se sent pas obligé.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Pour finir, je dirais que j’ai appris à prendre le temps qu’il faut pour approfondir ce qui me plaît et que ça vaut la peine d’être curieux. Dans ma scolarité, je voyais la plupart des cours comme ennuyants et donc je n’avais pas envie d’apprendre de mon côté, mais là on peut vraiment apprendre ce qui nous correspond et ça fait du bien, car c’est utile en plus. Pour TB et même mon travail plus tard, c’est vraiment un boost que je prends, car les micro‑interactions, c’est vraiment ce qui fait la différence quand on présente le projet et c’est ce qui donne envie de voir le produit fini. Je pourrais vraiment développer mon prototype au maximum pour marquer les gens qui seront ensuite susceptibles de me recommander.
+
+Lien figma : [Mini POCs - Marc Bouriot](https://www.figma.com/design/5hKLeffbeHDCHEsALGedLC/Mini-POCs---Marc-Bouriot?node-id=0-1&t=BMuDle7hZ6WjUcwf-1)
