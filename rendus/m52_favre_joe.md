@@ -133,24 +133,143 @@ Ce POC contiendra :
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Au début, je voulais surtout que cette formation perso m'aide à décoincer la partie carte de mon prototype. Je voulais clarifier les états, les interactions et comment tout ça s'intègre dans des parcours complets. En fait, j'ai atteint ce but, mais j'ai poussé le détail plus loin que prévu. Surtout sur comment organiser visuellement les éléments (pins, favoris, filtres, légende) et comment les faire marcher ensemble dans Figma avec les composants et les variantes.
+
+Je pensais que j'allais surtout bosser sur la mise en page de l'écran de carte et quelques interactions de base. Mais en réalité, j'ai passé pas mal de temps à définir des scénarios de test et à créer des parcours qu'on pouvait vraiment tester sans avoir besoin d'explications. Ça m'a forcé à rendre les textes, les transitions et les états intermédiaires super clairs. Je n'ai pas malheureusement pas eu le temps de réaliser les tests pour voir si mes scénarios de tests étaient bons.
+
+Au final, j'ai partiellement atteint les objectifs que je m'étais fixés: plusieurs versions de l'écran, au moins quatre états de carte, deux parcours complets. Je n'ai malheureusement pas eu le temps comme dit précedemment de faire passer les tests et de faire la documentation. Bon, par contre, j'ai un peu dépassé le temps prévu sur certaines étapes. Cette formation perso a été plus structurante que je pensais pour mon Travail de Bachelor. Ça m'a obligé à écrire noir sur blanc des décisions qui étaient un peu floues avant.
 
 ## Réponses aux 5 questions
+**1. Quels sont les éléments indispensables à représenter sur une carte interactive (points d’intérêt, favoris, légende, filtres) et comment les hiérarchiser visuellement pour éviter la surcharge ?**
+Voilà ce qu'il faut absolument :
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
+- le fond de carte (ou un plan du festival) assez simple pour que les zones importantes soient faciles à voir ;
+- les points d'intérêt (POI) avec des couleurs et des icônes qui vont bien ensemble ;
+- un système de favoris (une icône ou un pin spécial) qu'on voit tout de suite ;
+- des filtres faciles d'accès (boutons) et une légende simple qui explique les types de lieux.
+
+Pour l'organisation visuelle, j'ai bossé sur trois niveaux :
+
+1. Le fond de carte, avec des couleurs discrètes pour pas faire concurrence aux POI.
+2. Les points d'intérêt et ce sur quoi on se concentre (le pin sélectionné), c'est ça qu'on doit voir en premier.
+3. La légende, les filtres, les infos, qui sont là pour aider sans prendre toute la place sur la carte.
+
+Concrètement, ça veut dire :
+
+- utiliser des couleurs plus vives et des contrastes plus forts pour les éléments cliquables (les pins, les boutons des filtres) et des couleurs plus neutres pour le fond ;
+- jouer avec la taille et les formes (des pins plus gros pour les favoris ou le POI choisi, des panneaux avec un fond uni) ;
+- faire une légende courte, en évitant de mettre des catégories qui servent pas à grand-chose pendant les tests.
+
+J'ai un peu changé la question de départ pour parler de niveaux de lecture pour la carte. C'est ça qui m'a le plus aidé à éviter de surcharger l'écran.
+
+**2. Comment définir et organiser les différents états d’une carte interactive (neutre, point sélectionné, favoris affichés, filtres actifs) pour qu’ils restent compréhensibles dans un prototype haute-fidélité ?**
+Pour que les états soient faciles à comprendre, j'ai fait une sorte de mini design system dans Figma :
+
+- un composant principal carte (un frame) qui sert de base ;
+- des variantes pour les différents états (normal, point sélectionné, favoris affichés, filtres activés) ;
+- des composants pour les pins, les favoris et les infos.
+
+Les états sont rangés de façon logique :
+
+- Normal : on voit toute la carte avec les POI, mais pas d'infos ouvertes.
+- Point sélectionné : un pin change de couleur/taille et une info apparaît.
+- Favoris affichés : certains POI ont une étoile ou une couleur spéciale.
+- Filtres activés : on ne voit que les pins qui correspondent aux filtres, et on voit qu'il y a un filtre actif.
+
+Dans le prototype, j'ai fait des liens entre ces états :
+
+- si on clique sur un pin, on passe de l'état normal à l'état point sélectionné ;
+- si on clique sur l'icône de favori, le pin devient un favori ;
+- si on active un filtre, on voit une autre version de la carte avec seulement certains pins.
+
+Avec les variantes et les transitions, le fichier Figma reste facile à lire, et l'utilisateur a l'impression que tout est fluide quand il teste. J'ai un peu modifié la question pour insister sur comment j'ai organisé tout ça dans Figma, pas seulement sur la théorie des états.
+
+**3. Quels parcours utilisateurs impliquant la carte doivent absolument être présents dans un prototype pour permettre des tests utilisateurs pertinents sur l’orientation et la navigation ?**
+Pour que les tests soient utiles, j'ai choisi trois parcours :
+
+1. Découverte : accueil → carte → on choisit un point → on voit les infos → retour à la carte.
+2. Favoris : carte → on choisit un point → on le met en favori → on regarde les favoris → on voit les infos → retour.
+3. Filtrage : carte → on met un filtre → on choisit un point filtré → on voit les infos → retour à la carte filtrée.
+
+Ces parcours couvrent les besoins de base :
+
+- se repérer sur le plan du festival ;
+- trouver un endroit précis (une scène, un stand) ;
+- se faire un parcours perso avec les favoris ;
+- comprendre comment les filtres changent ce qu'on voit.
+
+Dans le prototype, tout devait marcher sans bugs ni endroits pas clairs. J'ai fait attention à ce que les liens soient évidents et à ce qu'il y ait un petit effet visuel à chaque action. Comme ça, les testeurs peuvent se concentrer sur la carte, pas sur les problèmes du prototype.
+
+**4. Comment évaluer, lors de tests utilisateurs, si la carte interactive du prototype aide réellement les participants à se repérer et à trouver un point d’intérêt donné ?**
+Pour voir si la carte est bien, il faudra faire attention à plusieurs choses :
+
+- des tâches précises (trouver la scène X) ;
+- des mesures simples (le temps qu'il faut pour la tâche, le nombre de clics, si les gens ont besoin d'aide) ;
+- comment les gens se comportent (s'ils hésitent, s'ils cliquent sur des trucs qui ne marchent pas, s'ils oublient la légende ou les filtres).
+
+Pendant les tests, je devrais dire aux gens de dire à voix haute ce qu'ils cherchaient et ce qu'ils comprenaient de la carte. Après chaque tâche, je dois demander :
+
+- Qu'est-ce qui t'a aidé ?
+- Qu'est-ce qui t'a embrouillé ?
+- Si tu pouvais changer un truc sur la carte, ce serait quoi ?
+
+Ces réponses m'aideront à savoir si la carte est bien organisée et facile à comprendre. Par exemple, si plusieurs personnes ne voient pas un filtre activé ou ne comprennent pas les couleurs, c'est que la carte ne les aide pas assez, même s'ils finissent par trouver ce qu'ils cherchent.
+
+J'ai ajouté à la question des critères d'évaluation (temps, erreurs, ce que disent les gens) au lieu de juste me fier à mon impression.
+
+**5. Quelles limites et contraintes spécifiques au format « prototype » (et non application développée) faut-il prendre en compte lorsqu’on élabore une carte interactive, et comment les contourner ou les expliciter dans le rapport de TB ?**
+Un prototype (dans Figma) a des limites :
+
+- ce n'est pas une vraie carte (on ne peut pas zoomer facilement) ;
+- les interactions sont simples ;
+- parfois, les transitions ne sont pas aussi fluides que dans une appli.
+
+Pour contourner ces problèmes, j'ai :
+
+- fait semblant de zoomer en créant plusieurs images de la carte à différents niveaux de zoom, avec des liens si on clique sur une zone ;
+- testé seulement les trucs les plus importants pour se repérer ;
+- expliqué clairement dans le rapport ce qui est simulé (les filtres) et ce qui serait géré par le code dans une appli.
+
+Dans le rapport, j'ai dit pour chaque problème :
+
+- ce qui bloque à cause du prototype (pas de géolocalisation) ;
+- comment ça change les tests (on ne peut pas tester la fonction autour de moi) ;
+- et, si possible, comment ça marcherait dans l'appli (on utiliserait l'API de localisation du téléphone). Ça montre que je sais comment créer la carte, même si tout n'est pas fait dans le prototype.
+
 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+Cette expérience m'a beaucoup appris, sur la méthode et sur Figma. En faisant plusieurs états de la carte et des parcours complets, j'ai dû clarifier le rôle de chaque élément : à quoi sert la carte ? Quand est-ce qu'on a besoin de détails ? Quand est-ce que les favoris sont utiles ?
+
+Mon seul regret est donc de ne pas avoir pu passer les tests qui m'auraient surement appris beaucoup.
+
+J'ai aussi mieux géré Figma, en utilisant les variantes et les interactions pour que ce soit plus fluide.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+J'ai passé un peu plus de temps que prévu, et surtout, j'ai réparti le temps différemment. J'ai donc fait :
+
+- Recherche : un peu moins de temps, car je me suis vite concentré sur quelques applis de cartes et des tutos.
+- Design : plus de temps, pour refaire les états et les composants.
+- Intégration : plus de temps aussi, car si la navigation n'est pas bonne, on le voit tout de suite pendant les tests.
+
+J'ai passé plus de temps parce que si on change un truc sur la carte, ça change tout le parcours. Mais c'est normal vu que la carte est importante dans mon projet.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+C'était bien de me former tout seul, car j'ai pu regarder plein de trucs différents (tutos Figma, articles sur les tests de cartes) et les essayer tout de suite. C'était pratique de pouvoir passer de la théorie à la pratique rapidement.
+
+Par contre, comme il n'y avait personne pour me dire quoi faire, j'ai parfois passé trop de temps sur des détails (les petites animations) au lieu de me concentrer sur la méthode (comment savoir si les tests sont réussis). J'ai dû me forcer à revenir à mes objectifs et à vérifier que chaque changement améliorait la carte.
+
+Cette formation m'a aussi montré qu'il faut réfléchir à ce qu'on fait.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Ce que j'ai appris :
+
+- une carte interactive, ce n'est pas juste un fond et des pins. C'est un ensemble d'états, d'interactions et de parcours qui doivent marcher ensemble.
+- il faut bien organiser les éléments et éviter de surcharger la carte pour que les gens s'y retrouvent facilement.
+
+Pour mon Travail de Bachelor, ça veut dire :
+
+- que j'ai une bonne base pour le rapport (la structure de la carte, les états, les interactions, les problèmes) ;
+- que je sais me former tout seul, organiser mon travail et tester ce que je fais. C'est utile pour mon futur métier.
