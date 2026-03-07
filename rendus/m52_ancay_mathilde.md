@@ -56,24 +56,46 @@ L’expérimentation consistera à réaliser un POC en suivant [la documentation
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Cette auto-formation a été très intéressante, autant pour les connaissances acquises que pour le processus d’apprentissage.
+
+Tout d'abord, d'un point de vue personnel, j'ai l'impression d'avoir atteint la plupart des objectifs: 
+- **Objectifs 1 - 2 - 3 :** Ceux-ci constituaient la partie "théorique" de mon auto-formation. J'ai réussi à lire et documenter l'ensemble des points que je souhaitais parcourir. Ces premiers objectifs sont atteints. 
+- **Objectif 4** : Atteint, mais pas de la façon que j'avais prévu. Je voulais faire un schéma, mais un très bon schéma était déjà fourni par la documentation. Je n'ai pas eu besoin de réaliser le mien. 
+- **Objectif 5-6** : Atteint, je suis parvenue à faire fonctionner une instance locale minimale, et ajouter des outils à un agent. 
+- **Objectif 7** : Partiellement atteint, j'ai pris quelques notes de ma démarche pratique, mais de façon très lacunaire, par manque de temps. 
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
-
+- _Quelles sont les responsabilités respectives de LangChain et de LangGraph, et à quel niveau s’articulent-ils dans une architecture d’agent ?_  
+    LangChain et LangGraph se complètent dans leur utilisation pratique. Alors que LangChain permet une orchestration rapide et simple d'agents, LangGraph permet de les configurer de façon plus précise. Cependant, ils ne s'excluent pas l'un et l'autre : en développant avec LangGraph, on utilise des composants LangChain de plus haut niveau.
+    
+- _Quel rôle jouent les Models et les Tools dans LangGraph, et comment interagissent-ils avec un agent ?_  
+    Les models sont les LLMs. Ceux-ci permettent de générer des réponses. Les tools sont des fonctions déterminées d’actions, que peuvent déclencher les LLMs. Les tools sont appelés via un tool calling du LLM.
+    
+- _Que recouvre la notion de “capabilities” dans LangGraph, et quels types de comportements permettent-elles d’implémenter ?_  
+    Les capabilities de LangGraph regroupent des fonctionnalités possibles des agents orchestrés par LangGraph. Il y a par exemple la persistence, qui permet de conserver un état de mémoire entre plusieurs exécutions de l'agent. Il y a également la durable execution, qui permet de sauvegarder le progrès d'un agent à un instant T afin de pouvoir interrompre puis reprendre son exécution.
+    
+- _Quelles sont les étapes nécessaires pour installer et exécuter une première instance fonctionnelle de LangGraph ?_  
+    Si l'on souhaite faire une instance en pouvant la monitorer avec LangSmith, il est nécessaire d’y créer une clé API. Puis, assez simplement, il faut exécuter une commande qui va créer un nouveau projet LangGraph. Il faudra ensuite configurer les clés API nécessaires (LangSmith, LLMs). À partir de là, on peut commencer à définir notre agent. Pour un agent simple, on peut d'abord créer une instance de LLM, créer un outil puis le mettre à disposition. Le tout sera ensuite associé dans des nodes correspondants. Il suffit ensuite d’exécuter les commandes pour tester son agent.
+    
+- _Comment configurer un agent LangGraph en lui fournissant un contexte et un outil, et comment vérifier qu’ils sont pris en compte ?_  
+    Pour configurer un agent LangGraph avec un contexte et un outil, il faut d'abord définir un état ou un message initial qui servira de contexte pour l’agent. Ensuite, un outil est défini sous forme de fonction et mis à disposition de l’agent. Celui-ci peut alors décider d’utiliser cet outil via le tool calling. Pour vérifier qu’ils sont bien pris en compte, il est possible d’exécuter l’agent et d’observer son comportement (par exemple avec LangSmith) afin de vérifier que le contexte est utilisé et que l’outil est appelé lorsque nécessaire.
+	 
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+L'expérimentation a été formatrice, mais pas vraiment aisée. Comme décrit dans la première partie du document, la plupart de la documentation est dédiée à la version Python du framework. Un des tutoriels proposés par la documentation officielle était dans ce langage. Puisqu'il semblait être le plus riche proposé, je me suis dit que j'allais tout de même le suivre. Cependant, je n'avais jamais fait de Python de ma vie, et cela a créé beaucoup de difficultés. 
+J'ai perdu pas mal de temps à essayer de configurer mon environnement pour que je puisse effectuer le tutoriel correctement. De plus, il y avait des notions inhérentes au langage qui me manquaient. Je devais faire des recherches complémentaires qui me ralentissaient.
+Après avoir passé cette première barrière, le tutoriel s'est montré vraiment intéressant et instructif, donc ce ne fut pas une perte de temps inutile. Il m'a permis de lancer des instances d'agents en local, avec des agents de plus en plus complexes, et qui, à chaque fois comprenaient des nouveaux éléments de théorie. Cette expérimentation m'a aidé à concrétiser les points de théorie que j'avais vus en amont et à les clarifier. 
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+La plupart des objectifs ont été atteints. Cependant, je ne pense pas avoir tout à fait atteint les 36 heures qui devaient y être allouées, par manque de temps à disposition. Cela a créé de la frustration, car j'aurais souhaité pouvoir m'y consacrer pleinement. J'ai bien atteint la plupart des objectifs, donc je suis malgré cela très contente de mon travail. J'ai été complètement investie dans mon implication pour ce cours, en lui allouant le plus de temps possible.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
-
+J'ai constaté que mes premiers objectifs, purement théoriques, étaient intéressants. Mais j'ai ressenti une frustration : j'aurais dû prévoir de passer plus rapidement à la pratique. Même si la théorie est indispensable, j'avais envie de tester, configurer, etc. Je saurai, à l'avenir, que lorsque je veux apprendre un nouveau framework, je dois commencer par la documentation, mais ne pas trop m'y attarder dans des points trop complexes dès le départ. Il est important de connaître ce que permet de faire une technologie, mais de s'y plonger uniquement lorsque j'en ai besoin concrètement. 
+Malgré la contrainte de la documentation en Python, je trouve que j'ai bien réussi à transposer mes acquis dans la version Typescript. 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Même si dans les faits, la plupart des objectifs ont été atteints, cette première approche du framework a eu un effet double. D'un côté, beaucoup de choses se sont éclaircies très vite. Ce fut très satisfaisant et passionnant rapidement. Cependant, cela a aussi mis en lumière toutes les choses qui me restent à apprendre. Cela a provoqué un sentiment d'immensité à devoir encore parcourir. Malgré cela, je suis très satisfaite de cette première session d'étude du framework. Je me réjouis d'approfondir mes connaissances du système. 
+Cette auto-formation a un très bel impact sur mon TB : elle a permis d'éclaircir beaucoup de notions qui m'étaient encore pour le moment très floues. Je sais maintenant avec beaucoup plus de clarté et de sérénité ce qui m'attend, comment je vais devoir m'y prendre et ce que je ferai durant la pré-étude. J'ai même déjà un semblant de schéma de l'agent que j'y développerai. Je pense compenser compléter ma connaissance sur le sujet d'ici la pré-étude. 
