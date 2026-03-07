@@ -48,24 +48,38 @@ Mon expérimentation consistera à tester concrètement le workflow de création
 
 ## Retour sur l'état initial
 
-_Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+Le bilan est plutôt positif. Mon but était surtout de lever mes doutes sur Symfony et Storybook avant d'attaquer mon TB, et c’est chose faite. La courbe d’apprentissage est bien là, mais je vois que c’est surmontable. J'ai réussi à faire un composant et à comprendre comment faire le pont entre mon design Figma et mon code. Ce qui est rassurant, je ne lance plus dans le TB à l'aveugle, j'ai maintenant une méthode, bien que j'ai encore à apprendre et tester.
 
 ## Réponses aux 5 questions
 
-_Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
-
+- **Comment bien organiser ses maquettes et ses composants sur Figma pour se faciliter la vie au moment de l'intégration web ?**
+  Utiliser des variables pour les styles et l'auto-layout. Structurer ses composants et variantes pour qu'ils correspondent aux futures "props"   du code.
+  
+- **Comment crée-t-on un élément d'interface réutilisable (comme un bouton) dans un framework back-end comme Symfony avec Twig ?**
+  En utilisant Twig Components. Il faut une classe php pour la logique et les valeurs par défaut, un fichier Twig (html.twig) pour le squelette html.
+  
+- **Par quels moyens techniques peut-on faire communiquer une documentation visuelle (Storybook) avec du code PHP (Symfony) ?**
+  Passer par Storybook Server. Cela permet à Storybook d'appeler Symfony pour rendre le "vrai" Twig et l'afficher de manière isolée.
+  
+- **Pour mon TB, quels sont les "pour et les contre" de mettre le Design System directement dans le projet principal plutôt que dans un dossier à part ?**
+  Directement accessible en local en faisant npm run storybook en ayant l'app symfony qui tourne déjà, et directement connecté au composant dans le code de l'app donc utile pour des modifications rapides alors que sinon ça serait moins dynamique. Mais il faut que je regarde avec l'entreprise ce qu'ils acceptent.
+  
+- **Quelles sont les règles de base en HTML/CSS (balises, focus au clavier) à respecter absolument pour qu'un composant interactif soit accessible ?**
+  Le prendre en compte déjà au niveau du design system par exemple avec le focus, bien respecter les contraste, bien utiliser la sémantique html et permettre la navigation au clavier
+  
 ## Résultat de l'expérimentation
-_Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+Côté design j'ai appris à organiser mon système et à comment structurer les composants.
+Côté technique, j'ai vu comment fonctionnait Symfony et Twig, et j'ai pu voir comment installer Storybook et me rassurer sur le fait que ça peut bien marcher comme je l'imaginais et sans trop de complexité, ce que je craignais par manque de connaissance.
 
 ## Investissement
 
-_Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+J'ai passé un peu moins de temps que prévu sur ce projet car c'était difficile de se motiver en partant de zéro, sans aucun fil conducteur. Quand il n'y a pas de chemin tracé, il faut tout chercher par soi-même et c'est parfois décourageant et il n'y a pas forcément ce que l'on cherche. Malgré ça, ce temps m'a permis de débloquer les bases et de tester la faisabilité technique, ce qui me rassure pour la suite de mon TB.
 
 ## Réflexion sur la méthode d'auto-formation
 
-_En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+L'avantage c'est de pouvoir avancer à son rythme et bien personnaliser ce que l'on veut apprendre pour des besoins spécifiques, l'inconvénient c'est qu'on ne trouve pas forcément des ressources pour se former si on ne veut pas utiliser que l'IA.
 
 ## Conclusion
 
-_Quelles leçons avez-vous apprises et pourquoi ?_
-_Quelles implications pour votre TB et pourquoi ?_
+Pour mon TB, je vais sûrement partir sur une approche intégrée (Storybook dans Symfony) si l'entreprise me le permet. Cela me permettra d'aller plus vite et de garantir que ma documentation est toujours synchronisée avec le code. Ce test m'a permis d'avoir une idée plus claire de ce que je vais vraiment faire pendant mon TB et va me permettre de savoir de quoi je parle et savoir quoi regarder au moment de commencer. 
