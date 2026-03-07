@@ -108,26 +108,70 @@ Afin de concrétiser mon auto-formation dans ce domaine, je souhaite produire de
 
 # RAPPORT FINAL À RENDRE POUR LE 6 MARS 23h59
 
-## Retour sur l'état initial
+## Retour sur l'état initial 
 
 _Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
+
+De manière générale, les objectifs ne sont que partiellement atteint. Je n'ai pas réussi à allouer l'entierté du temps demandé durant l'intervale très court entre les deux cours. J'ai pu me renseigner sur le sujet grâce à de nombreuses documentations techniques et contenus vidéos, cependant, je n'ai pas terminé le POC et le guide technique que je visais à réaliser durant le premier rendu.
 
 ## Réponses aux 5 questions
 
 _Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
 
+1. Les GitHub Actions sont configurées dans les fichiers (YALM) placés dans le dossier .github/workflows. On y définit les événements déclencheurs, les jobs et les différentes étapes d'exécution. Les GitHub Secrets permettent de stocker des informations sensibles et de les utiliser dans les worflows (par ex. des tokens ou clés d'API).
+
+2. Les GitHubs Actions proposent plusieurs types d'événements déclencheurs. Notamment, les push, pull request, workflow dispatch, schedule, release et pleins d'autres. Le choix dépend du contexte. Par exemple, pour automatiser des tests lors des push ou valider du code présent dans une pull request.
+
+3. Intégrer un service externe dans une pipeline se fait généralement grâce à des requêtes API ou des outils CLI directement intégrés dans une étape du worflow. L'utilisation des secrets et la mise en place de code vérifiant les codes de retour ou l'arrêt des jobs garantissent un bon fonctionnement.
+
+4. Les jobs peuvent être isolés dans un workflow GitHub Actions en les séparant en différents tâches qui peuvent être exécutées sur des environnements indépendants (des runners). Des dépendances peuvent être définies entre elles (needs) et on peut facilement réutiliser des worflows ou actions. Par exemple, une tâche "build" peut être dépendante de la réussite d'une tâche "test".
+
+5. Malheureusement, je n'ai pas réussi à atteindre la partie de mon auto-formation qui traite du test des pipelines. De ce que j'ai compris, une pipeline peut être vérifié grâce à l'analyse des logs et grâce à la simulation de certaines erreurs (par exemple, un code HTTP !== 200 retourné par une requête API déclenche un exit).
+
 ## Résultat de l'expérimentation
 _Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+
+L'expérimentation s'est bien déroulée, bien qu'elle n'ait pas été réalisée jusqu'au bout. J'ai effectué la mise en place du repository et la conception de l'architecture du workflow mais, le POC n'a pas pu être complété. L'intégration d'un service externe est encore en cours de travail et la partie test doit être entièrement travaillée.
+
+Malgré cela, cette expérimentation m'a été fortement formatrice. Elle m'a permis de mieux appréhender la logique et le fonctionnement des pipelines CLI/CD, la modularité des jobs et les différents outils d'automatisation proposés par GitHub. C'est une base solide sur laquelle je pourrais construire mon Travail de Bachelor.
 
 ## Investissement
 
 _Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
 
+Au total, je n'ai malheureusement pu accorder que 23 h 45 sur les 36 h demandées. Cela est notamment dû à l'aménagement des cours qui offrent peu de temps entre l'initialisation du cours et le rendu, au travail à fournir pour le cours à option et à mon emploi. 36 h équivallent à 4 jours de travail complet.
+
+Temps réellement passé :
+
+**Phase 1 - Recherches (11h au lieu de 8h)**  
+**Phase 2 - Conception (6h au lieu de 8h)**  
+**Phase 3 - Implémentation (6h45 au lieu de 12h)**  
+**Phase 4 - Tests (0h au lieu de 4h)**  
+**Phase 5 - Guide/rapport technique (0h au lieu de 4h)**  
+
 ## Réflexion sur la méthode d'auto-formation
 
 _En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
 
+### Avantages
+- Je suis autonome et peux ainsi adapter les horaires comme cela m'arrange.
+- Le choix des thèmes abordés et le temps qui y est accordé peuvent être aménagés.
+- Pas de pression liée au timing, à d'enventuelles évaluations ou rendus.
+
+### Inconvénients
+- Je n'ai pas de guarantie qui certifie que ma compréhension des outils et des concepts est correcte.
+- Il m'est compliqué de me poser des limites de temps. Il arrive donc, parfois, que je passe trop de temps à me concentrer sur un concept et en perde sur un autre.
+- Se former soi-même nécessite une discipline que je n'ai pas tout le temps.
+
 ## Conclusion
 
 _Quelles leçons avez-vous apprises et pourquoi ?_
+
+J'ai appris que se renseigner longuement sur un outil, une technologie ou un concept avant de se lancer dans la mise en pratique est très importante. Sans cela, nous pouvons plus facilement faire face à des erreurs ou à des bloquages qui seront plus difficilement résolus.
+
+Cela a consolidé ma croyance qui dit que la pratique est la partie la plus désisive d'une processus de formation. C'est elle qui montre si les concepts et outils sont réellement compris et si certains aspects doivent encore être travaillés.
+
 _Quelles implications pour votre TB et pourquoi ?_
+
+Pour mon Travail de Bachelor, ces connaissances constituent une base solide et importante. Elles me permettront de construire et intégrer des pipelines solides et capables d'automatiser certaines tâches techniques (tests; génération de documentation; vérification de dépendances; …). 
+
