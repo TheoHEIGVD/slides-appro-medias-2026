@@ -99,22 +99,93 @@ Comme je l'ai déjà mentionné plus haut, je prévois de faire cette auto-forma
 
 _Quel bilan entre les attentes, les objectifs et la réalité de cette auto-formation ?_
 
+Globalement, je tire un bilan positif de cette auto-formation. Je suis surtout satisfaite du choix du sujet pour ce module, car cela a permis de voir ce qui était faisable avec Shopify et surtout son périmètre pour les thématiques de portail B2B et de personnalisation du processus de réservation. Une nuance que j'apporterais à l'aspect positif de ce retour est que je n'imaginais pas de telles nuances tarifaires pour ces sujets.
+
+Dans mes attentes, j'imaginais que Shopify permettait nativement de gérer deux types de clients distincts (pour mon cas B2C et B2B), mais en réalité, j'ai pu constater que si je voulais une vraie distinction pour des profils professionnels, cela était inclus dans le forfait « Plus » à CHF 2 000 par mois... Alors, à partir de là, j'ai dû me réorienter pour trouver une autre façon de faire.
+
+Pour cette partie-là justement, j'ai pu trouver différentes solutions qui peuvent s'offrir, par exemple utiliser les tags, les segments ou des applications externes, mais je n'ai pas pu les mettre en place pour tester concrètement de A à Z comme je l'avais mentionné dans la phase initiale. En revanche, je ne prends pas cela pour un échec car j'ai obtenu des solutions possibles et des informations sur la mise en place. Il ne restera donc « plus qu'à » tester ceci.
+
 ## Réponses aux 5 questions
 
 _Répondez aux 5 questions posées plus haut. Pour chacune d'elles, si nécessaire, complétez ou améliorez la question._
 
+**Q1. 1. Concernant les fiches produits Shopify, quelles sont les options modulables pour définir le type de produit et comment faire que cela se répercute sur le panier ?**
+Ayant l'habitude de WordPress, je pensais que ceci allait être un casse-tête qui**,** en réalité**,** s'est avéré très simple : une case sur la fiche produit indique « produit physique » et il suffit de décocher cette case pour que cela ne soit plus considéré comme un élément qui sera expédié ensuite. La répercussion sur le panier se fait donc automatiquement en supprimant le calcul des frais d'envoi et la demande d'adresse de livraison une fois que cette case « produit physique » est décochée.
+
+**Q2. (initiale) Comment pouvoir automatiser l'envoi par e-mail d'un lien vers un formulaire pour la partie services ?
+(reformulée) Quels sont les possibilités de personnaliser la reservation d'un service afin de poser des questions au client ?**
+Je me suis permise de reformuler la question car je n'ai pas l'impression, finalement, qu'elle correspondait vraiment à ce que je voulais vérifier. Je ne voulais pas savoir comment automatiser, mais plutôt comprendre s'il existe des manières d'obtenir des détails sur les envies du client lorsqu'il réserve un service.
+
+Ce que j'ai pu réaliser en cherchant des renseignements là-dessus est qu'il y a deux manières possibles :
+
+1. Il existe beaucoup d'applications pour les systèmes d'agenda de réservation et l'un d'entre eux, Cowlendar, possède un forfait « PRO » qui permet d'intégrer des questions personnalisées directement lors de la réservation, c'est-à-dire avant que celle-ci soit soumise à l'entreprise.
+
+2. La seconde possibilité est de laisser le client effectuer sa réservation et d'ensuite, dans le mail de confirmation, ajouter un lien dynamique avec Tally par exemple pour compléter.
+
+J'ai réalisé alors un « pour et contre » de ces deux solutions en fonction des besoins qu'aurait l'entreprise mais aussi des frictions du client. Les deux solutions peuvent être appliquées mais cela dépend surtout de la quantité de questions et de l'importance qu'elles ont. Je ne vais pas m'étendre sur ceci mais voici ce que j'ai choisi :
+
+J'ai appliqué ceci à la réservation d'un atelier de création de gâteau de fête personnalisé. Pour cet atelier, il était important de connaître à l'avance :
+
+- Le niveau pâtissier du client (débutant, intermédiaire, expert)
+
+- Ses allergies, s'il en a
+
+- Ses inspirations (photos), s'il a une idée précise de ce qu'il souhaiterait
+
+Pour ceci, j'ai donc décidé de partir sur la solution 1, celle de Cowlendar qui avait un essai gratuit de 7 jours. Je la trouvais pertinente et plus adaptée pour ce cas, car il s'agit de questions essentielles à la réalisation et si elles avaient été mises dans le mail de confirmation, il y a de fortes chances que celles-ci n'auraient pas été répondues.
+
+**Q3. Quelles sont les distinctions entre produits et services sur Shopify au niveau du panier (expédition,...) ?**
+Cette question rejoint une partie de ma réponse à la première, mais je rajouterai que Shopify permet de créer des profils d'expédition. On peut donc y rattacher les produits physiques pour calculer les frais d'envoi en fonction du poids et du prix. Tout produit ayant la case « produit physique » décochée est donc considéré comme un service et est ignoré par le système d'expédition.
+
+Mais cela montre un aspect positif : on peut acheter des orangettes et réserver un atelier macaron sans qu'il y ait de bug logistique.
+
+**Q4. Quelles sont les grandes étapes pour créer un type de client spécifique (ici client pro) ayant des spécificités en évitant des outils payants ?**
+Je peux y répondre que partiellement étant donné que je n'ai pas pu appliquer jusqu'à la fin une technique précise, mais que j'ai plutôt essayé de voir comment elles fonctionnaient. Le point principal est que Shopify ne permet de gérer des profils différents avec une réelle interface spécifique au B2B que dans leur forfait "Plus", ce qui n'est pas envisageable dans cette situation.
+
+La solution la plus adéquate pour remédier à ceci est d'utiliser les tags clients qui permettront de segmenter la clientèle entre PRO et standard. Une fois ces deux tags définis, on peut appliquer des réductions automatiques qui s'activent directement au panier. Si on cherche en revanche au-delà de ce que propose nativement Shopify, on trouve diverses applications existantes. J'ai effectué un comparatif de celles-ci en cherchant également plus loin au travers de tutos d'utilisation, d'avis, etc. Elles permettent pour la majorité une bonne flexibilité dans la gestion du B2B et du dashboard, mais sont bien évidemment d'un certain coût qu'il faudrait analyser, notamment pour la pertinence du besoin.
+
+**Q5. Comment permettre à un client professionnel de pouvoir commander sans avoir à payer directement et avoir une facture ?**
+Ici aussi, je ne peux y répondre que partiellement étant donné que cela dépend de la question 4, mais il existe plusieurs solutions. J'ai pu en répertorier qui seraient bonnes à tester dans la suite de mon auto-formation, mais à l'heure actuelle, je ne peux dire laquelle serait la plus adaptée.
+
+Une solution native à Shopify est d'activer le moyen de paiement manuel. On pourrait ensuite indiquer que celui-ci n'est disponible qu'aux clients ayant le tag "PRO", mais ce mode de paiement serait quand même visible par les clients "standard" avec un texte indiquant qu'il est réservé aux clients PRO. Une autre solution serait d'activer ce moyen de paiement, puis ensuite utiliser une application Payment Customizer pour masquer ce choix aux clients non visés.
+
 ## Résultat de l'expérimentation
 _Expliquez comment s'est passé l'expérimentation, a-t-elle été formatrice ? sur quels aspects ?_
+L'expérimentation de cette auto-formation s'est très bien passée et je suis très satisfaite bien que tous les objectifs n'aient pas été atteints. J'ai réellement évalué la pertinence de ce CRM, de son fonctionnement, surtout sur sa base. En plus de cela, j'ai pu créer un petit site, certes pas complet, mais qui correspondait aux besoins de l'auto-formation.
+
+J'ai pu tester des choses complémentaires comme le multilinguisme, les filtres du catalogue produits, etc., qui sont parfois des points qu'on pense minimes mais qui peuvent vite être un casse-tête. J'ai pu surtout réaliser à quel point Shopify peut être adaptable, surtout avec des applications externes, et que finalement il joue un peu un rôle de squelette qu'on habille ensuite avec les applications qui nous sont nécessaires. Comme je le disais, je ne suis pas arrivée au point final de ce que j'imaginais, mais je sais comment je peux y arriver, alors l'auto-formation pourra continuer sur cette voie.
 
 ## Investissement
 
 _Détaillez le temps passé et les écarts avec l'investissement imaginé au départ, expliquez pourquoi._
+J’ai utilisé le maximum de mon temps en dehors des cours de mon option Marketing et de mes engagements pour effectuer cette auto-formation. De manière générale, le timing a été très bien estimé pour les phases 1, 2 et 3, bien que j'aie gagné du temps sur la phase 2. Par contre, les phases 4 et 5 auraient pu être mieux pensées.
+
+Pour commencer facile, la phase 5 dépendait de la réalisation des phases précédentes ; du fait que la phase 4 n'a pas pu être finalisée, cette phase 5 s'est trouvée bien réduite avec uniquement la phase 3 de réellement testable. Pour ce qui est de la phase 4, j’ai passé beaucoup de temps à essayer de trouver des alternatives, des avis et la mise en place d’une autre solution que Shopify Plus. J’ai donc favorisé le fait d’effectuer des recherches plutôt que d’essayer de mettre en place la première solution trouvée. Mais je pars du principe que cela n’est pas perdu, car j’ai sourcé chaque étape de mon auto-formation et je peux, dans un second temps, essayer de mettre en pratique les éléments trouvés.
 
 ## Réflexion sur la méthode d'auto-formation
 
 _En regard des avantages et inconvénients de l'auto-formation, qu'avez-vous constaté ?_
+J'ai pu remarquer que la quantité de documentation et d'informations varie beaucoup en fonction des éléments recherchés, on peut vite se perdre et parfois avoir des difficultés à savoir si une solution est fiable et vraiment adaptée sans l'avoir testée. L'auto-formation prend du temps et surtout il ne faut pas négliger le temps de prise de notes, la structuration des informations pour pas que ceci ne serve à rien.
+
+Il est important de prendre un moment avant de décider de se lancer, pour fixer les objectifs, le périmètre, etc... et pas se lancer directement car cela ne fonctionnera pas sur le long terme. Globalement je trouve que le temps pris pour s'autoformer est un temps précieux et je trouve que cette méthode est très agréable car une fois le périmètre défini on sait à quoi s'en tenir, on peut l'adapter et surtout la formation correspond complètement à nos besoins contrairement à un cours qui serait suivi en ligne par exemple.
 
 ## Conclusion
 
 _Quelles leçons avez-vous apprises et pourquoi ?_
+
+Voici les leçons apprises pendant ce module, d'après ce qui a été écrit plus haut :
+
+- Shopify est nettement plus intuitif et actuel que WordPress
+
+- Un CMS simple peut vite devenir cher une fois qu'on veut sortir de l'utilisation standard
+
+- Il est important de prendre le temps nécessaire pour s'assurer de la correspondance d'une solution avec nos objectifs
+
+- S'autoformer est quelque chose qui s'apprend et plus on le fait, plus on peut devenir efficace
+
 _Quelles implications pour votre TB et pourquoi ?_
+
+Avoir pu créer un cas différent (entreprise de pâtisserie) de mon sujet de TB m'a permis d'essayer de mettre en pratique des fonctions que j'imagine mais de manière adaptée à un commerce. Au-delà de Shopify, cela me sera utile notamment pour la partie académique de mon TB, le Playbook sur la réplication de la solution à d'autres micro-entreprises suisses.
+
+Shopify étant très certainement le CMS qui sera sélectionné pour la nouvelle plateforme de Photogare, il me semblait important de le prendre en main déjà pour gagner en efficacité une fois le TB commencé mais aussi de comprendre et voir ce qu'il a dans le ventre pour effectuer une comparaison concrète avec d'autres CMS.
+
