@@ -59,12 +59,13 @@ Je considère qu’après cette auto-formation, je suis capable de concevoir un 
 •	Suis-je capable d’analyser des données qualitatives issues d’entretiens ou de tests utilisateurs en identifiant des insights pertinents plutôt que de simples opinions isolées ?
 Malheureusement, le manque de temps, associé à un manque d’organisation, ne m’a pas permis de mener suffisamment de tests pour disposer de données qualitatives exploitables. Bien que je pense avoir acquis les bases méthodologiques nécessaires, je ne peux pas affirmer avec certitude être pleinement capable de répondre à cet objectif dans la pratique.
 
-•	Puis-je transformer les résultats de ma recherche utilisateur en recommandations concrètes influençant l’architecture de l’information, les parcours ou les choix stratégiques du site ?
-Pour des raisons similaires à la question précédente, je pense disposer des connaissances nécessaires pour réaliser cette tâche. Cependant, faute d’expérimentation suffisante, je ne peux pas affirmer avoir validé concrètement cette compétence.
+- Puis-je transformer les résultats de ma recherche utilisateur en recommandations concrètes influençant l’architecture de l’information, les parcours ou les choix stratégiques du site ?
 
-•	Suis-je capable de justifier méthodologiquement mes choix de recherche (type d’entretien, nombre de participants, méthode d’analyse) en argumentant leur pertinence dans le cadre d’un projet institutionnel ?
-À la suite de ma phase d’analyse et d’étude des différents outils de la recherche utilisateur, je pense être en mesure de justifier mes choix méthodologiques et d’argumenter leur pertinence dans le cadre d’un projet institutionnel.
+  Pour des raisons similaires à la question précédente, je pense disposer des connaissances nécessaires pour réaliser cette tâche. Cependant, faute d’expérimentation suffisante, je ne peux pas affirmer avoir validé concrètement cette compétence.
 
+- Suis-je capable de justifier méthodologiquement mes choix de recherche (type d’entretien, nombre de participants, méthode d’analyse) en argumentant leur pertinence dans le cadre d’un projet institutionnel ?
+
+  À la suite de ma phase d’analyse et d’étude des différents outils de la recherche utilisateur, je pense être en mesure de justifier mes choix méthodologiques et d’argumenter leur pertinence dans le cadre d’un projet institutionnel.
 ## Résultat de l'expérimentation
 
 Pour débuter cette auto-formation, j’ai d’abord consolidé mes bases théoriques en relisant mes cours liés à la recherche utilisateur afin de me remettre dans le contexte. J’ai ensuite complété ces connaissances par la lecture d’articles spécialisés et le visionnage de contenus réalisés par des professionnels de l’UI/UX partageant leurs méthodes et bonnes pratiques. Cette première phase d’acquisition théorique et méthodologique s’est déroulée conformément au planning initial, avec environ huit heures consacrées à cette étape.
