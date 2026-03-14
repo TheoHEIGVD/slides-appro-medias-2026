@@ -76,7 +76,7 @@ L’expérimentation a été formatrice à plusieurs niveaux. Elle m’a permis 
 
 Le temps investi dans ce projet s’élève à environ trente heures, soit légèrement en dessous des trente-six heures prévues initialement. La première phase théorique a respecté le temps estimé (environ huit heures). En revanche, la phase de conception du protocole a largement dépassé les six heures prévues, pour atteindre environ seize heures de travail. Cette différence s’explique par la nécessité d’approfondir l’analyse du marché et de l’écosystème du mandant afin de formuler des hypothèses solides et pertinentes.
 Un autre écart important est lié au délai de réponse aux demandes d’informations adressées au mandant. Ce temps d’attente n’avait pas été anticipé dans le planning initial, ce qui a entraîné un retard dans l’avancement du projet. Par conséquent, je n’ai pas disposé du temps nécessaire pour mettre en œuvre concrètement les tests utilisateurs ni pour analyser les résultats, d’autant plus que le temps requis pour ces étapes avait été sous-estimé.
-Cette expérience m’a permis de comprendre qu’un planning dépendant de facteurs externes doit intégrer des marges de sécurité et que la planification initiale doit être plus détaillée afin d’anticiper les imprévus
+Cette expérience m’a permis de comprendre qu’un planning dépendant de facteurs externes doit intégrer des marges de sécurité et que la planification initiale doit être plus détaillée afin d’anticiper les imprévus.
 
 
 ## Réflexion sur la méthode d'auto-formation
